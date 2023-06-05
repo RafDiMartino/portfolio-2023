@@ -1,11 +1,32 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Josefin_Sans, Playfair_Display, Fira_Mono } from 'next/font/google'
+import { Header } from "./components/header/Header"
+import { Footer } from './components/footer/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
+
+export const josefinSans = Josefin_Sans({
+  subsets: ['latin'],
+  variable: '--font-josefin-sans'
+})
+
+export const playfairDisplay = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair-display'
+})
+
+export const firaMono = Fira_Mono({
+  weight: ["400", "500", "700"],
+  subsets: ['latin'],
+  variable: '--font-fira-mono'
+})
 
 export const metadata = {
   title: 'Raf Di Martino | Portfolio',
   description: 'Portfolio site',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
@@ -15,7 +36,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      
+      <body className={`${josefinSans.variable} ${playfairDisplay.variable} ${firaMono.variable}`}>
+      <Header />
+        {children}
+      <Footer />
+      </body>
+      
     </html>
   )
 }
