@@ -1,0 +1,164 @@
+.heroSection {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--black);
+    height: calc(100vh - 5rem);
+  }
+    
+  .nameAboutWrapper{
+    padding: 0 1rem;
+  }
+    
+  .fullName {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 600;
+  }
+    
+  .fullName p {
+    margin: 0 0 .5rem;
+    text-align: center;
+  }
+    
+  .about {
+    text-align: center;
+    margin: 3.5rem 0 0;
+  }
+  
+  .socialWrapper {
+    padding: 4rem 1rem 0;
+  }
+  
+  .socialWrapper a {
+    margin: 1rem;
+  }
+    
+  .social {
+    font-size: 2.7rem;
+    flex-basis: 15%;
+  }
+  
+  .linkedin,
+  .github {
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  .linkedin:hover,
+  .github:hover {
+    color: var(--gold);
+  }
+  
+  .featured-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0 0 5rem 0;
+  }
+  
+  .featured-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .featured-container p {
+    font-weight: 400;
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+  }
+    
+  @media (min-width: 411px) {
+  
+    .fullName {
+      font-size: 3.4rem;
+    }
+  }
+    
+  @media (min-width: 768px) {
+  
+    .nameAboutWrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  
+    }
+  
+    .fullName p {
+      font-size: 4.5rem;
+      text-align: left;
+    }
+  
+    .about {
+      margin: 0;
+      width: 17rem;
+      padding-bottom: 1rem;
+      text-align: right;
+    }
+    
+    .social {
+      flex-basis: 4rem;
+    }
+  } 
+    
+  @media (min-width: 1024px) {
+  
+    .fullName p{
+      font-size: 5rem;
+    }
+  
+    .about {
+      width: 20rem;
+      font-size: 1.2rem;   
+    }
+  
+    .featured-wrapper {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .fullName {
+      font-size: 7.5rem;
+    }
+  }
+  
+    
+  @media (min-width: 1440px) {
+  
+    .nameAboutWrapper{
+      margin-top: 2rem;
+    }
+  
+    .fullName p{
+      font-size: 8rem;
+    }
+  
+    .about {
+      width: 23rem;
+      font-size: 1.6rem;   
+      padding-bottom: 3rem;
+    }
+  
+    .socialWrapper{
+      padding: 4.5rem 0 0;
+    }
+  
+    .social {
+      flex-basis: 5rem;
+    }
+  }
+    
+  @media (min-width: 1877px) {
+    
+    .nameAboutWrapper{
+      width: 70%;
+    }
+  }
