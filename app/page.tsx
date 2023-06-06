@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Metadata } from 'next';
+import { Hero } from './components/hero/Hero';
 
 export const metadata = {
   title: 'Raf Di Martino | Portfolio',
@@ -8,8 +9,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>Portfolio</div>
+    <main className="flex flex-1 flex-col items-center justify-between p-24">
+      <Hero/>
     </main>
   )
 }
