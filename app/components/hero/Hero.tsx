@@ -5,7 +5,10 @@ import Link from 'next/link'
 export const Hero = () => {
     return (
         <section className={classes.heroSection}>
-            <h1 className={classes.name}>RAF DI MARTINO</h1>
+            {/* <div className={classes.heroSectionWrapper}> */}
+                <h1 className={`${classes.name} ${classes.heroSectionWrapper}`}>RAF DI MARTINO</h1>
+                <p className={`${classes.about}`}>Web Developer with an Art & Design background</p>
+            {/* </div> */}
         </section>
     )
 }

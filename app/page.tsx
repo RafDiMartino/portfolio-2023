@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="bg-black flex flex-1 flex-col items-center justify-center">
+    <main className="bg-primary flex flex-1 flex-col items-center justify-center">
       
       {/* <Hero3D /> */}
       <Hero/>
