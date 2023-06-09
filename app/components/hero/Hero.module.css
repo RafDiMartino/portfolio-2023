@@ -11,12 +11,16 @@
     @apply font-josefin;
 
     .heroSectionWrapper {
-        background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, white, transparent, transparent);
-        background-clip: text;
-        color: transparent;
-        animation: 
+
+        /* @screen md {
+            background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, white, transparent, transparent);
+            background-clip: text;
+            color: transparent;
+            animation: 
             reveal 3000ms ease-in-out forwards 200ms,
             glow 2500ms linear 2000ms;
+        } */
+
     }
 
     .name {
@@ -37,15 +41,16 @@
         @apply font-playfair font-semibold;
         font-size: 1rem;
         text-align: center;
-        animation: fadeIn ease-in-out forwards 5s;
-        @screen md {
+       
+        /* @screen md {
             font-size: 1.2rem;
-        }
+            animation: fadeIn ease-in-out forwards 4s;
+        } */
     }
 
-    @keyframes reveal {
+    /* @keyframes reveal {
         80% {
-            letter-spacing: .5rem;
+            letter-spacing: .3rem;
         }
 
         100% {
@@ -63,5 +68,5 @@
         0% {opacity:0;}
         80% {opacity:0;}
         100% {opacity:1;}
-    }
+    } */
 }
