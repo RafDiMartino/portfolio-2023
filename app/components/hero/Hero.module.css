@@ -4,12 +4,11 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-height: 75vh;
+    min-height: calc(100vh - 91px);
     background-color: var(--color-primary);
     @apply font-josefin;
 
     @screen md {
-        min-height: calc(100vh - 91px);
         align-items: center;
     }
 
@@ -34,10 +33,6 @@
         @screen lg {
             font-size: 7rem;
         }
-    }
-
-    .animation{
-        opacity: 0;
     }
 
     .standfirst {

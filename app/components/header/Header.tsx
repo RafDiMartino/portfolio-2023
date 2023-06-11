@@ -1,9 +1,10 @@
 'use client';
 
-import React from "react"
+import React, {useEffect} from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import classes from "./Header.module.css"
+import gsap from 'gsap'
 
 export const Header = () => {
 
@@ -16,8 +17,23 @@ export const Header = () => {
     setOpenMenu(!openMenu)
   }
 
+  useEffect(() => {
+    gsap.fromTo(
+        ".test",
+        {
+            autoAlpha: 0,
+        },
+        {
+            autoAlpha: 1,
+            duration: 1,
+            ease: "power2.in",
+            delay: 2
+        }
+    )
+}, [])
+
   return (
-    <header className={classes.header}>
+    <header className={`${classes.header} test`}>
       <div className={classes.headerWrapper}>
         <div className={classes.logoWrapper}>
           {/* <svg width="25" height="25" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
