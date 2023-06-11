@@ -13,4 +13,7 @@
   /*background-color: var(--color-primary);*/
 }
 
+html, body {
+  background-color: var(--color-primary);
+}
 

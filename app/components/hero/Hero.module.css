@@ -3,40 +3,53 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
-    min-height: calc(100vh - 91px);
+    min-height: 75vh;
     background-color: var(--color-primary);
     @apply font-josefin;
 
+    @screen md {
+        min-height: calc(100vh - 91px);
+        align-items: center;
+    }
+
     .nameWrapper {
         display: flex;
+        flex-direction: column;
         background-color: var(--color-primary);
+        @screen xs {
+            flex-direction: row;
+        }
     }
+
     .name {
-        font-size: 2rem;
-        text-align: center;
+        font-size: 2.8rem;
+        text-align: left;
         font-weight: 600;
         opacity: 0;
         @screen md {
             font-size: 5rem;
+            text-align: center;
         }
         @screen lg {
             font-size: 7rem;
         }
     }
 
-    .test{
+    .animation{
         opacity: 0;
     }
 
-    .about {
-        @apply font-playfair ;
+    .standfirst {
+        @apply font-playfair py-7;
         font-size: 1rem;
-        text-align: center;
+        text-align: right;
         opacity: 0;
+
         @screen md {
             font-size: 1.5rem;
+            text-align: center;
+            @apply py-0
         }
     }
 }

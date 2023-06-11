@@ -17,6 +17,10 @@ module.exports = {
         josefin: ['var(--font-josefin-sans)'],
         playfair: ['var(--font-playfair-display)'],
         fira: ["var(--font-fira-mono)"]
+      },
+      screens: {
+        'xs': '465px',
+        // => @media (min-width: 992px) { ... }
       }
     },
   },

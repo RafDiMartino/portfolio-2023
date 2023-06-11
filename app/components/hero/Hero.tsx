@@ -1,6 +1,6 @@
 "use client"
-import React, {useRef,useLayoutEffect, useEffect, useState} from 'react'
-import classes from  "./Hero.module.css"
+import React, { useRef, useLayoutEffect, useEffect, useState } from 'react'
+import classes from "./Hero.module.css"
 import Link from 'next/link'
 import gsap from 'gsap'
 // import { TextPlugin } from 'gsap/dist/TextPlugin';
@@ -16,63 +16,58 @@ export const Hero = () => {
 
 
     useEffect(() => {
-
         let nameReveal = gsap.timeline()
-        nameReveal.fromTo(".test", 
-        {
-            autoAlpha: 0,
-        },
-        {
-            autoAlpha: 1,
-            duration: 2,
-            delay: 1,
-            stagger: {
-                each: 0.04,
+        nameReveal.fromTo(".animation",
+            {
+                autoAlpha: 0,
+            },
+            {
+                autoAlpha: 1,
+                delay: 1,
+                stagger: {
+                    each: 0.02,                    
+                }
             }
-        }
         )
-
-        // gsap.fromTo( 
-        //     fullname.current,
-        //     {
-        //         autoAlpha: 0,
-        //     },
-        //     {
-        //         autoAlpha: 1,
-        //         duration: 2,
-        //         ease: "none",
-        //         delay: .5
-        //     }
-        // )
-    },[])
+    }, [])
 
     useEffect(() => {
-        gsap.fromTo( 
-            standfirst.current,             
+        gsap.fromTo(
+            standfirst.current,
             {
                 autoAlpha: 0,
             },
             {
                 autoAlpha: 1,
                 duration: 1,
-                ease: "none",
+                ease: "power2.in",
                 delay: 2
             }
         )
-    },[])
-    
+    }, [])
+
+    const name = "RAF"
+    const surname = "DI MARTINO"
 
     return (
         <section className={`${classes.heroSection}`}>
             <h1 className={classes.nameWrapper}>
+                <div className="xs:pr-5 md:pr-10">
                 {
-                    "RAF DI MARTINO".split("").map((word, i) => {
-                        return word === " " ? <span ref={fullname} key={i} className={`${classes.name} test`} >&nbsp;</span> : <span ref={fullname} key={i} className={`${classes.name} test`}>{word}</span>
+                    name.split("").map((letter, i) => {
+                        return letter === " " ? <span key={i} className={`${classes.name} animation`} >&nbsp;</span> : <span key={i} className={`${classes.name} animation`}>{letter}</span>
                     })
                 }
-                </h1>
-                <p ref={standfirst} className={`${classes.about}`}>Web Developer with an Art & Design background</p>
-            
+                </div>
+                <div>
+                {
+                    surname.split("").map((letter, i) => {
+                        return letter === " " ? <span key={i} className={`${classes.name} animation`} >&nbsp;</span> : <span key={i} className={`${classes.name} animation`}>{letter}</span>
+                    })
+                }
+                </div>
+            </h1>
+            <p ref={standfirst} className={`${classes.standfirst}`}>Web Developer with an Art & Design background</p>
         </section>
     )
 }
