@@ -9,63 +9,34 @@
     background-color: var(--color-primary);
     @apply font-josefin;
 
-    .heroSectionWrapper {
-
-        /* @screen md {
-            background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, white, transparent, transparent);
-            background-clip: text;
-            color: transparent;
-            animation: 
-            reveal 3000ms ease-in-out forwards 200ms,
-            glow 2500ms linear 2000ms;
-        } */
-
+    .nameWrapper {
+        display: flex;
+        background-color: var(--color-primary);
     }
-
     .name {
         font-size: 2rem;
         text-align: center;
         font-weight: 600;
-
+        opacity: 0;
         @screen md {
             font-size: 5rem;
         }
-
         @screen lg {
             font-size: 7rem;
         }
     }
 
+    .test{
+        opacity: 0;
+    }
+
     .about {
-        @apply font-playfair font-semibold;
+        @apply font-playfair ;
         font-size: 1rem;
         text-align: center;
-       
-        /* @screen md {
-            font-size: 1.2rem;
-            animation: fadeIn ease-in-out forwards 4s;
-        } */
-    }
-
-    /* @keyframes reveal {
-        80% {
-            letter-spacing: .3rem;
-        }
-
-        100% {
-            background-size: 1000% 1000%;
+        opacity: 0;
+        @screen md {
+            font-size: 1.5rem;
         }
     }
-
-    @keyframes glow {
-        40% {
-            text-shadow: 0 0 .5rem white;
-        }
-    }
-
-    @keyframes fadeIn {
-        0% {opacity:0;}
-        80% {opacity:0;}
-        100% {opacity:1;}
-    } */
 }
