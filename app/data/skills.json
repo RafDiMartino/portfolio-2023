@@ -1,0 +1,86 @@
+[
+    {
+        "alt": "Next.js logo",
+        "src": "./assets/skills-logos/next-js.svg"
+    },
+    {
+        "alt": "React.js logo",
+        "src": "./assets/skills-logos/react.svg"
+    },
+    {
+        "alt": "Typescript logo",
+        "src": "./assets/skills-logos/typescript.svg"
+    },
+    {
+        "alt": "JavaScript logo",
+        "src": "./assets/skills-logos/javascript.svg"
+    },
+    {
+        "alt": "Three.js logo",
+        "src": "./assets/skills-logos/threejs.svg"
+    },
+    {
+        "alt": "jQuery logo",
+        "src": "./assets/skills-logos/jquery.svg"
+    },
+    {
+        "alt": "CSS logo",
+        "src": "./assets/skills-logos/css.svg"
+    },
+    {
+        "alt": "HTML logo",
+        "src": "./assets/skills-logos/html.svg"
+    },
+    {
+        "alt": "Tailwind logo",
+        "src": "./assets/skills-logos/tailwind.svg"
+    },
+    {
+        "alt": "Bootstrap logo",
+        "src": "./assets/skills-logos/bootstrap.svg"
+    },
+    {
+        "alt": "Sass logo",
+        "src": "./assets/skills-logos/sass.svg"
+    },
+    {
+        "alt": "HuSpot logo",
+        "src": "./assets/skills-logos/hubspot.svg"
+    },
+    {
+        "alt": "ExpressionEngine logo",
+        "src": "./assets/skills-logos/expressionengine.svg"
+    },
+    {
+        "alt": "Vite logo",
+        "src": "./assets/skills-logos/vitejs.svg"
+    },
+    {
+        "alt": "Node.js logo",
+        "src": "./assets/skills-logos/nodejs.svg"
+    },
+    {
+        "alt": "Git logo",
+        "src": "./assets/skills-logos/git.svg"
+    },
+    {
+        "alt": "Github logo",
+        "src": "./assets/skills-logos/github.svg"
+    },
+    {
+        "alt": "Firebase logo",
+        "src": "./assets/skills-logos/firebase.svg"
+    },
+    {
+        "alt": "Figma logo",
+        "src": "./assets/skills-logos/figma.svg"
+    },
+    {
+        "alt": "Sketch logo",
+        "src": "./assets/skills-logos/sketch.svg"
+    },
+    {
+        "alt": "Blender logo",
+        "src": "./assets/skills-logos/blender.svg"
+    }
+]
