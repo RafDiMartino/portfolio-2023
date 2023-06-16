@@ -4,13 +4,12 @@ import Image from 'next/image'
 interface skillData {
     src: string;
     alt: string;
-    key: number;
 }
 
-export const Skill = ({ src, alt, key }: skillData) => {
+export const Skill = ({ src, alt}: skillData) => {
 
     return (
-        <Image width={0} height={0} src={src} alt={alt} key={key} priority={true}/>
+        <Image width={0} height={0} src={src} alt={alt} priority={true}/>
     )
 
 }

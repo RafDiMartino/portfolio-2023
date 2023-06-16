@@ -11,8 +11,9 @@ import gsap from 'gsap'
 export const Hero = () => {
 
     let fullname = React.useRef<HTMLHeadingElement>(null)
-    let standfirst = React.useRef<HTMLParagraphElement>(null)
-
+    const standfirst = React.useRef<HTMLParagraphElement>(null)
+    const name = "RAF"
+    const surname = "DI MARTINO"
 
 
     useEffect(() => {
@@ -23,9 +24,10 @@ export const Hero = () => {
             },
             {
                 autoAlpha: 1,
-                delay: 1,
+                delay: 0,
+                ease: "power3.inOut",
                 stagger: {
-                    each: 0.02,                    
+                    each: 0.04,                    
                 }
             }
         )
@@ -41,13 +43,10 @@ export const Hero = () => {
                 autoAlpha: 1,
                 duration: 1,
                 ease: "power2.in",
-                delay: 2
+                delay: 1
             }
         )
     }, [])
-
-    const name = "RAF"
-    const surname = "DI MARTINO"
 
     return (
         <section className={`${classes.heroSection}`}>

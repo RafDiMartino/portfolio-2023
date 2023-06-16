@@ -27,7 +27,7 @@ export const Header = () => {
             autoAlpha: 1,
             duration: 1,
             ease: "power2.in",
-            delay: 2
+            delay: 1
         }
     )
 }, [])
