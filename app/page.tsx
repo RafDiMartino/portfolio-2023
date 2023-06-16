@@ -6,6 +6,14 @@ import { Skills } from './components/skills/Skills';
 export const metadata = {
   title: 'Raf Di Martino | Portfolio',
   description: 'Portfolio site',
+  // googleBot: {
+  //   index: true,
+  //   follow: false,
+  //   noimageindex: true,
+  //   'max-video-preview': -1,
+  //   'max-image-preview': 'large',
+  //   'max-snippet': -1,
+  // },
 }
 
 export default function Home() {
@@ -14,7 +22,7 @@ export default function Home() {
       
       {/* <Hero3D /> */}
       <Hero/>
-      <Skills />
+      {/* <Skills /> */}
     </main>
   )
 }

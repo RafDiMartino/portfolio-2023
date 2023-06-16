@@ -10,41 +10,77 @@
 
     @screen md {
         align-items: center;
+        min-height: calc(100vh - 91px);
     }
 
     .nameWrapper {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         background-color: var(--color-primary);
         @screen xs {
             flex-direction: row;
         }
-    }
 
-    .name {
-        font-size: 2.8rem;
-        text-align: left;
-        font-weight: 600;
-        opacity: 0;
-        @screen md {
-            font-size: 5rem;
-            text-align: center;
-        }
-        @screen lg {
-            font-size: 7rem;
+        .name {
+            font-size: 2.8rem;
+            font-weight: 600;
+            opacity: 0;;
+            @screen md {
+                font-size: 5rem;
+            }
+            @screen lg {
+                font-size: 7rem;
+            }
         }
     }
 
     .standfirst {
         @apply font-playfair py-7;
         font-size: 1rem;
-        text-align: right;
+        text-align: center;
         opacity: 0;
-
         @screen md {
+            font-size: 1.2rem;
+        }
+        @screen lg {
             font-size: 1.5rem;
-            text-align: center;
-            @apply py-0
+            @apply py-0 pb-7;
+        }
+    }
+
+    .socialWrapper {
+        @apply py-7;
+        opacity: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > * {
+            @apply mx-5;
+        }
+
+        a {
+            width: 40px;
+            @screen md {
+                width: 50px
+            }
+        }
+
+        svg {
+            transition: fill all 1s ease-in-out;
+            path {
+                transition: fill .2s ease;
+                fill: var(--color-white);
+
+            }
+
+            &:hover path{
+                fill: var(--color-accent);
+            }
+            
         }
     }
 }
