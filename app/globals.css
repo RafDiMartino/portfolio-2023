@@ -17,3 +17,22 @@ html, body {
   background-color: var(--color-primary);
 }
 
+* {
+  /* scrollbar-width: thin; */
+  scrollbar-color: var(--color-accent) var(--color-primary);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-white);
+  
+}
