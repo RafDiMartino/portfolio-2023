@@ -25,20 +25,21 @@
     svg {
         width: 30px;
         height: 30px;
-        
         @screen sm {
             width: 16px;
             height: 16px
         }
-    }
 
-    svg:hover > *{
-        fill: var(--color-white);
-        
         path {
-            stroke: none;
+            transition: fill .2s ease;
+            fill: var(--color-accent);
+
         }
-    } 
+
+        &:hover path{
+            fill: var(--color-white);
+        }
+    }
 
     @screen sm {
         display: flex;
