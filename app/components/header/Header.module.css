@@ -70,10 +70,11 @@
   }
 
   ul > * {
-    padding: .5rem 1rem;
+    margin: .5rem 1rem;
   }
 
   ul li{
+    transition: all .2s ease;
     font-size: .9rem;
     &:hover {
       @apply text-white;
