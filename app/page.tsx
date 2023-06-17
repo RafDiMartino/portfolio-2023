@@ -22,7 +22,7 @@ export default function Home() {
       
       {/* <Hero3D /> */}
       <Hero/>
-      {/* <Skills /> */}
+      <Skills />
     </main>
   )
 }
