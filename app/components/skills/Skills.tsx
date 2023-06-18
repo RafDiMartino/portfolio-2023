@@ -17,7 +17,7 @@ export const Skills = () => {
         },
         {
             autoAlpha: 1,
-            duration: .5,
+            duration: 1,
             ease: "power2.in",
             scrollTrigger: {
               trigger: ".skillsSectionAnimation"
@@ -28,7 +28,7 @@ export const Skills = () => {
     gsap.set(".skillAnimation", { y: 100, opacity: 0});
 
     ScrollTrigger.batch( ".skillAnimation", {
-        onEnter: batch => gsap.to(batch, {y: 0, autoAlpha: 1, stagger: { amount: 1, each: 0.3, from: "random", ease: "power3.inOut" }, delay: .5}),
+        onEnter: batch => gsap.to(batch, {y: 0, autoAlpha: 1, stagger: { amount: 1, each: 0.3, from: "random", ease: "power3.inOut" }, delay: 1}),
     })
 }, [])
 
