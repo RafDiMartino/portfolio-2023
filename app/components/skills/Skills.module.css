@@ -1,7 +1,6 @@
 .skillsContainer {
     color: var(--color-white);
     min-height: calc(100vh - 91px);
-    opacity: 0;
     @apply font-josefin;
 
     & > * {
