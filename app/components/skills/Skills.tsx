@@ -41,7 +41,7 @@ export const Skills = () => {
       <h2 className={`skillsSectionAnimation`}>SKILLS</h2>
       <p className={`skillsSectionAnimation`}>Technologies I have used in my web development career</p>
       <div className={`${classes.skillWrapper} .skillAnimation`}>
-        {skill.map((skill, i) => <Skill  src={skill.src} alt={skill.alt} key={i} test={skill.test} />)}
+        {skill.map((skill, i) => <Skill  src={skill.src} alt={skill.alt} key={i} tooltip={skill.tooltip} />)}
       </div>
     </section>
   )

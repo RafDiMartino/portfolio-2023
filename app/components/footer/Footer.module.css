@@ -1,5 +1,5 @@
 .footer {
-    @apply bg-primary text-accent w-full mt-auto text-center font-josefin border-t-2 border-accent;
+    @apply bg-primary z-10 text-accent w-full mt-auto text-center font-josefin border-t-2 border-accent;
     font-size: 0.8rem;
     padding: 2.5rem;
 

@@ -2,111 +2,111 @@
     {
         "alt": "Next.js logo",
         "src": "./assets/skills-logos/next-js.svg",
-        "test": "Next.js"
+        "tooltip": "Next.js"
     },
     {
         "alt": "React.js logo",
         "src": "./assets/skills-logos/react.svg",
-        "test": "React.js"
+        "tooltip": "React.js"
     },
     {
         "alt": "Typescript logo",
         "src": "./assets/skills-logos/typescript.svg",
-        "test": "Typescript"
+        "tooltip": "Typescript"
     },
     {
         "alt": "JavaScript logo",
         "src": "./assets/skills-logos/javascript.svg",
-        "test": "JavaScript"
+        "tooltip": "JavaScript"
     },
     {
         "alt": "Three.js logo",
         "src": "./assets/skills-logos/threejs.svg",
-        "test": "Three.js"
+        "tooltip": "Three.js"
     },
     {
         "alt": "GSAP logo",
         "src": "./assets/skills-logos/gsap.svg",
-        "test": "GSAP"
+        "tooltip": "GSAP"
     },
     {
         "alt": "jQuery logo",
         "src": "./assets/skills-logos/jquery.svg",
-        "test": "jQuery"
+        "tooltip": "jQuery"
     },
     {
         "alt": "CSS logo",
         "src": "./assets/skills-logos/css.svg",
-        "test": "CSS 3"
+        "tooltip": "CSS 3"
     },
     {
         "alt": "HTML logo",
         "src": "./assets/skills-logos/html.svg",
-        "test": "HTML 5"
+        "tooltip": "HTML 5"
     },
     {
         "alt": "Tailwind logo",
         "src": "./assets/skills-logos/tailwind.svg",
-        "test": "Tailwind"
+        "tooltip": "Tailwind"
     },
     {
         "alt": "Bootstrap logo",
         "src": "./assets/skills-logos/bootstrap.svg",
-        "test": "Bootstrap"
+        "tooltip": "Bootstrap"
     },
     {
         "alt": "Sass logo",
         "src": "./assets/skills-logos/sass.svg",
-        "test": "Sass"
+        "tooltip": "Sass"
     },
     {
         "alt": "HuSpot logo",
         "src": "./assets/skills-logos/hubspot.svg",
-        "test": "HuSpot"
+        "tooltip": "HuSpot"
     },
     {
         "alt": "ExpressionEngine logo",
         "src": "./assets/skills-logos/expressionengine.svg",
-        "test": "ExpressionEngine"
+        "tooltip": "ExpressionEngine"
     },
     {
         "alt": "Vite logo",
         "src": "./assets/skills-logos/vitejs.svg",
-        "test": "Vite"
+        "tooltip": "Vite"
     },
     {
         "alt": "Node.js logo",
         "src": "./assets/skills-logos/nodejs.svg",
-        "test": "Node.js"
+        "tooltip": "Node.js"
     },
     {
         "alt": "Git logo",
         "src": "./assets/skills-logos/git.svg",
-        "test": "Git"
+        "tooltip": "Git"
     },
     {
         "alt": "Github logo",
         "src": "./assets/skills-logos/github.svg",
-        "test": "Github"
+        "tooltip": "Github"
     },
     {
         "alt": "Firebase logo",
         "src": "./assets/skills-logos/firebase.svg",
-        "test": "Firebase"
+        "tooltip": "Firebase"
     },
     {
         "alt": "Figma logo",
         "src": "./assets/skills-logos/figma.svg",
-        "test": "Figma"
+        "tooltip": "Figma"
     },
     {
         "alt": "Sketch logo",
         "src": "./assets/skills-logos/sketch.svg",
-        "test": "Sketch"
+        "tooltip": "Sketch"
     },
     {
         "alt": "Blender logo",
         "src": "./assets/skills-logos/blender.svg",
-        "test": "Blender "
+        "tooltip": "Blender "
     }
 ]

@@ -8,14 +8,14 @@ gsap.registerPlugin(ScrollTrigger)
 interface skillData {
     src: string;
     alt: string;
-    test: string;
+    tooltip: string;
 }
 
-export const Skill = ({ src, alt, test }: skillData) => {
+export const Skill = ({ src, alt, tooltip }: skillData) => {
 
     return (
         <div className="skillAnimation">
-            <div className={`${classes.tooltip}`}>{test}</div>
+            <div className={`${classes.tooltip}`}>{tooltip}</div>
             <Image width={0} height={0} src={src} alt={alt} priority={true}/>
         </div>
     )

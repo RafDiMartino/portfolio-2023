@@ -19,7 +19,7 @@ export const Header = () => {
 
   useEffect(() => {
     gsap.fromTo(
-        ".test",
+        ".headerAnimation",
         {
             autoAlpha: 0,
         },
@@ -33,7 +33,7 @@ export const Header = () => {
 }, [])
 
   return (
-    <header className={`${classes.header} test`}>
+    <header className={`${classes.header} headerAnimation`}>
       <div className={classes.headerWrapper}>
         <div className={classes.logoWrapper}>
           {/* <svg width="25" height="25" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
