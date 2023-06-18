@@ -31,9 +31,6 @@ export const Hero = () => {
                 }
             }
         )
-    }, [])
-
-    useEffect(() => {
         gsap.fromTo(
             ".heroAnimation",
             {
@@ -47,6 +44,10 @@ export const Hero = () => {
             }
         )
     }, [])
+
+    // useEffect(() => {
+
+    // }, [])
 
     return (
         <section className={`${classes.heroSection}`}>
