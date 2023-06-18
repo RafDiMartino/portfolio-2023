@@ -25,11 +25,26 @@ export const Skills = () => {
         }
     )
 
-    gsap.set(".skillAnimation", { y: 100, opacity: 0});
+    // gsap.set(".skillAnimation", { opacity: 0});
 
-    ScrollTrigger.batch( ".skillAnimation", {
-        onEnter: batch => gsap.to(batch, {y: 0, autoAlpha: 1, stagger: { amount: 1, each: 0.3, from: "random", ease: "power3.inOut" }, delay: 1}),
-    })
+    // ScrollTrigger.batch( ".skillAnimation", {
+    //     onEnter: batch => gsap.to(batch, { autoAlpha: 1, stagger: { grid: "auto", amount: 2, ease: "power3.inOut" }}),
+    // })
+
+    gsap.fromTo(
+      ".skillAnimation",
+      {
+          autoAlpha: 0,
+      },
+      {
+          autoAlpha: 1,
+          ease: "power3.in",
+          stagger: {
+            amount: 2.5
+          },
+          delay: 2.5
+      }
+  )
 }, [])
 
 // useEffect(() => {
@@ -40,7 +55,7 @@ export const Skills = () => {
     <section className={`${classes.skillsContainer}`}>
       <h2 className={`skillsSectionAnimation`}>SKILLS</h2>
       <p className={`skillsSectionAnimation`}>Technologies I have used in my web development career</p>
-      <div className={`${classes.skillWrapper} .skillAnimation`}>
+      <div className={`${classes.skillWrapper} skillsSectionAnimation`}>
         {skill.map((skill, i) => <Skill  src={skill.src} alt={skill.alt} key={i} tooltip={skill.tooltip} />)}
       </div>
     </section>
