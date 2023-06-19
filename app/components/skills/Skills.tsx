@@ -25,12 +25,6 @@ export const Skills = () => {
         }
     )
 
-    // gsap.set(".skillAnimation", { opacity: 0});
-
-    // ScrollTrigger.batch( ".skillAnimation", {
-    //     onEnter: batch => gsap.to(batch, { autoAlpha: 1, stagger: { grid: "auto", amount: 2, ease: "power3.inOut" }}),
-    // })
-
     gsap.fromTo(
       ".skillAnimation",
       {
@@ -46,10 +40,6 @@ export const Skills = () => {
       }
   )
 }, [])
-
-// useEffect(() => {
-
-// }, [])
 
   return (
     <section className={`${classes.skillsContainer}`}>
