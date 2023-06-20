@@ -1,0 +1,20 @@
+[
+    {
+        "alt": "React portfolio screenshot",
+        "src": "./assets/projects-screenshot/edx-challenge-13.png",
+        "title": "React Portfolio",
+        "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
+        "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",
+        "description": "react description",
+        "tags": ["react", "js"]
+    },
+    {
+        "alt": "React portfolio screenshot",
+        "src": "./assets/projects-screenshot/edx-challenge-13.png",
+        "title": "Next Portfolio",
+        "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
+        "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",
+        "description": "next description",
+        "tags": ["next"]
+    }
+]
