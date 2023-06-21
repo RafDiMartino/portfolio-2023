@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className="flex flex-col items-center justify-between p-24 bg-slate-500">
+    <main className="flex flex-col items-center justify-center w-full">
       <h1 className="text-white">Projects</h1>
       {/* { projectData.map( project =>  <Project src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.repoLink} description={project.description}/> )} */}
       <Search />

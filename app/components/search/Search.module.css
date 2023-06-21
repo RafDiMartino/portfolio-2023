@@ -1,0 +1,28 @@
+.searchSection {
+    @apply w-full flex flex-col items-center justify-center max-w-screen-2xl px-5;
+    /* max-w-screen-2xl */
+    .projectsContainer{
+        /* @apply flex items-center justify-center flex-wrap gap-6 mt-20 mb-20; */
+        display: grid;
+        grid-template-columns: 1fr;
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; */
+        gap: 1.5rem;
+        margin: 3rem 0;
+
+        @screen sm {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @screen lg {
+            grid-template-columns: 1fr 1fr 1fr;
+        } 
+
+        &:last-child {
+            grid-column: span 3;
+            align-self: center;
+        }
+    }
+}

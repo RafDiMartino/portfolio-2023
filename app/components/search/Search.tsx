@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, ChangeEvent, FormEvent } from 'react';
+import classes from "./Search.module.css"
 import data from "../../data/projects.json"
 import { Project } from '../project/Project';
 
@@ -13,7 +14,7 @@ interface Item {
   tags: string[];
 }
 
-const SearchComponent: React.FC = () => {
+const SearchComponent = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<Item[]>(data);
 
@@ -34,7 +35,7 @@ const SearchComponent: React.FC = () => {
   };
 
   return (
-    <section>
+    <section className={classes.searchSection}>
       <form onSubmit={handleSearchSubmit}>
         <input
           type="text"
@@ -45,15 +46,11 @@ const SearchComponent: React.FC = () => {
         <button type="submit">Search</button>
       </form>
       {searchResults.length > 0 ? (
-        <div className=''>
+        <div className={classes.projectsContainer}>
           {searchResults.map((project, i) => (
             <Project key={i} src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.repoLink} description={project.description}/>
           ))}
         </div>
-        // <div>
-        //   { searchResults.map( project =>  <Project src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.repoLink} description={project.description}/> )}
-        // </div>
-
       ) : (
         <p>No results found.</p>
       )}
