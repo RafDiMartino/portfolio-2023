@@ -3,26 +3,26 @@
     background-color: aquamarine;
     position: relative;
     /* width: 100%; */
-    max-width: 35rem;
     max-width: 100%;
+    /* max-width: 100%; */
     /* width: 17rem; */
     /* max-width: 35rem; */
     /* height: 17rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* @screen sm {
-        width: 20rem;
-        height: 20rem;
-    }
-    @screen md {
-        width: 25rem;
-        height: 25rem;
+    /* @screen xs {
+        max-width: 12.5rem;
     } */
-    @screen lg {
-        max-width: 25rem;
-        max-width: 100%;
+
+    @screen sm {
+        max-width: 45%;
+    }
+    /* @screen md {
+        max-width: 38%;
+    } */
+    @screen xl {
+        max-width: 32%;
     }
 
     /* img {
