@@ -66,6 +66,25 @@
         color: var(--color-white);
         background-color: var(--color-primary);
         text-transform: uppercase;
+
+        svg {
+            path {
+                transition: fill .3s ease-in-out;
+                fill: var(--color-white);
+            }
+    
+            &:hover path{
+                fill: var(--color-accent);
+            }
+        }
+
+        a {
+            transition: color .3s ease-in-out;
+            &:hover {
+                color: var(--color-accent);
+            }
+        }
+
     }
 
     h2 {
