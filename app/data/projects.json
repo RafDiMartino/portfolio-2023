@@ -1,16 +1,16 @@
 [
     {
         "alt": "React portfolio screenshot",
-        "src": "./assets/projects-screenshot/edx-challenge-13.png",
+        "src": "/assets/projects-screenshot/edx-challenge-13.png",
         "title": "React Portfolio",
         "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
         "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",
-        "description": "react description",
+        "description": "In this assignement my task was to create a Personal Portfolio Webpage using React.js, and React-router-dom. In this assignement my task was to create a Personal Portfolio Webpage using React.js, and React-router-dom.",
         "tags": ["react", "js"]
     },
     {
         "alt": "React portfolio screenshot",
-        "src": "./assets/projects-screenshot/edx-challenge-13.png",
+        "src": "/assets/projects-screenshot/edx-challenge-13.png",
         "title": "React Portfolio",
         "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
         "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",
@@ -19,7 +19,7 @@
     },
     {
         "alt": "React portfolio screenshot",
-        "src": "./assets/projects-screenshot/edx-challenge-13.png",
+        "src": "/assets/projects-screenshot/edx-challenge-13.png",
         "title": "React Portfolio",
         "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
         "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",
@@ -28,7 +28,7 @@
     },
     {
         "alt": "React portfolio screenshot",
-        "src": "./assets/projects-screenshot/edx-challenge-13.png",
+        "src": "/assets/projects-screenshot/edx-challenge-13.png",
         "title": "React Portfolio",
         "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
         "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",

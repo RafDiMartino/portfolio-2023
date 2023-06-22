@@ -1,0 +1,81 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./app/components/project/Project.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Project_projectWrapper__rkeCU {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+    @media (min-width: 640px) {.Project_projectWrapper__rkeCU {
+        max-width: 45%
+
+
+}
+    }
+
+    @media (min-width: 1280px) {.Project_projectWrapper__rkeCU {
+        max-width: 32%
+
+
+}
+    }
+
+    .Project_projectWrapper__rkeCU img {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px; 
+    }
+
+    .Project_projectWrapper__rkeCU img:hover {
+            transform: scale(1);
+        }
+
+    .Project_projectWrapper__rkeCU .Project_contentWrapper__2sLgR {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-white);
+        position: absolute;
+        z-index: 5;
+        opacity: 0;
+        background-color: #0b0b0bd3;
+        transition: opacity .3s ease-in-out;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .Project_projectWrapper__rkeCU .Project_contentWrapper__2sLgR:hover {
+            opacity: 1;
+            
+        }
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./app/components/search/Search.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Search_searchSection__PPHl6{
+        display: flex;
+        width: 100%;
+        max-width: 1536px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+
+}
+    
+    .Search_searchSection__PPHl6 .Search_projectsContainer__L8aa_{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 3rem 0;
+
+    }

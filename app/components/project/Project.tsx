@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from "./Project.module.css"
+import Image from 'next/image';
 
 interface projectData {
     src: string;
@@ -14,13 +15,15 @@ export const Project = ({ src, alt, title, repoLink, projectLink, description }:
 
     return (
         <div className={classes.projectWrapper}>
-            <img src={src} alt={alt} />
+            <Image width={600} height={600} src={src} alt={alt} />
             <div className={classes.contentWrapper}>
-                <h2>{title}</h2>
-                <a href={repoLink}>Github</a>
-                <a href={projectLink}>Project link</a>
                 <p>{description}</p>
+                <div className={classes.linksWrapper}>
+                    <a href={projectLink}>Project link</a> 
+                    <a href={repoLink}>Github</a>
+                </div>
             </div>
+            <h2>{title}</h2>
         </div>
     )
 }
