@@ -1,0 +1,99 @@
+.projectWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 3rem;
+    color: var(--color-white);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(255, 255, 255, 0.13) 0px 0px 1px 1px;
+    
+    & > * {
+        margin-bottom: 3.5rem;
+    }
+    
+    @screen xs {
+        max-width: 25rem;
+    }
+
+    @screen lg {
+        max-width: 30rem;
+    }
+    
+    img {
+      
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        max-width: 90%;
+        border-radius: 20px;
+        margin-top: -30px;
+        transition: all .3s ease-in-out;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(255, 255, 255, 0.13) 0px 0px 1px 1px;
+
+    }
+
+    .contentWrapper {
+       
+        flex-grow: 1;
+        padding: 0 1.5rem;
+        width: 100%;
+        text-align: center;
+
+        h2 {
+            font-family: var(--font-josefin-sans);
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color .2s ease-in-out;
+            padding-bottom: 1rem;
+        }
+        p {
+            font-family: var(--font-playfair-display);
+        }
+    }
+
+    .linksWrapper{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        svg {
+            path {
+                transition: fill .3s ease-in-out;
+                fill: var(--color-white);
+            }
+    
+            &:hover path{
+                fill: var(--color-accent);
+            }
+        }
+
+        .liveLink {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: .5rem 1rem;
+            border-radius: 5px;
+            font-family: var(--font-josefin-sans);
+            background-color: var(--color-white);
+            color: var(--color-primary);
+            transition: background-color .2s ease-in-out;
+            &:hover {
+                background-color: var(--color-accent);
+            }
+        }
+    }
+
+    &:hover h2 {
+        color: var(--color-accent);
+    }
+
+    /*&:hover img {
+        max-width: 95%;
+    }*/
+
+}
