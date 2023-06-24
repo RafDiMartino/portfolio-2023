@@ -49,7 +49,7 @@ const SearchComponent = () => {
       {searchResults.length > 0 ? (
         <div className={classes.projectsContainer}>
           {searchResults.map((project, i) => (
-            <Project2 key={i} src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.repoLink} description={project.description}/>
+            <Project2 key={i} src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.projectLink} description={project.description}/>
           ))}
         </div>
       ) : (

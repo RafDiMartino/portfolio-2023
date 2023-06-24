@@ -4,10 +4,20 @@
 
 :root {
   --color-primary: #343536;
-  --color-primary: #101010;
-  --color-primary: #080808;
   --color-primary: #0B0B0B;
+
+  --color-primary: #292727;
+  --color-primary: #101518; /* charcoal */
+  
+  --color-secondary: #4f3636;
+  --color-secondary: #363333;
+  --color-secondary: #20292f; /* charcoal lighter */
+
+  --color-accent: #8FFE09;
+  --color-accent: #36454f;
+  --color-accent: #c5832b;
   --color-accent: #C09E6B;
+
   --color-black: #000000;
   --color-white: #FFFFFF;
   /*background-color: var(--color-primary);*/
