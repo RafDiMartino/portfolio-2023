@@ -1,8 +1,9 @@
 
 
 .header {
-  @apply sticky top-0 z-20 flex justify-center items-center bg-primary text-accent w-full text-center font-josefin border-b-2 border-accent;
+  @apply sticky top-0 z-20 flex justify-center items-center bg-primary text-accent w-full text-center font-josefin;
   opacity: 0;
+  border-bottom: 1px solid var(--color-accent)
 }
 
 .headerWrapper {

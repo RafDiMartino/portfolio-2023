@@ -3,6 +3,7 @@ import React, { useState, ChangeEvent, FormEvent } from 'react';
 import classes from "./Search.module.css"
 import data from "../../data/projects.json"
 import { Project } from '../project/Project';
+import { Project2 } from '../project/Project2';
 
 interface Item {
   src: string;
@@ -48,7 +49,7 @@ const SearchComponent = () => {
       {searchResults.length > 0 ? (
         <div className={classes.projectsContainer}>
           {searchResults.map((project, i) => (
-            <Project key={i} src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.repoLink} description={project.description}/>
+            <Project2 key={i} src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.projectLink} description={project.description}/>
           ))}
         </div>
       ) : (

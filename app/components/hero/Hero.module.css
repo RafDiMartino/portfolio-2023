@@ -26,7 +26,7 @@
         .name {
             font-size: 2.8rem;
             font-weight: 600;
-            opacity: 0;;
+            opacity: 0;
             @screen md {
                 font-size: 5rem;
             }
