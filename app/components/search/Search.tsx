@@ -9,6 +9,7 @@ interface Item {
   src: string;
   alt: string;
   title: string;
+  date: string;
   repoLink: string;
   projectLink: string;
   description: string;
@@ -49,7 +50,7 @@ const SearchComponent = () => {
       {searchResults.length > 0 ? (
         <div className={classes.projectsContainer}>
           {searchResults.map((project, i) => (
-            <Project2 key={i} src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.projectLink} description={project.description}/>
+            <Project2 key={i} src={project.src} alt={project.alt} title={project.title} date={project.date} tags={project.tags} repoLink={project.repoLink} projectLink={project.projectLink} description={project.description}/>
           ))}
         </div>
       ) : (

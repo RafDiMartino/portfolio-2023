@@ -7,19 +7,22 @@ interface projectData {
     src: string;
     alt: string;
     title: string;
+    date: string;
     repoLink: string;
     projectLink: string;
     description: string;
+    tags: string[];
 }
 
-export const Project2 = ({ src, alt, title, repoLink, projectLink, description }: projectData) => {
-
+export const Project2 = ({ src, alt, title, date, tags, repoLink, projectLink, description }: projectData) => {
+    
     return (
         <article className={classes.projectWrapper}>
             
             <Image priority={true} width={600} height={600} src={src} alt={alt} />
             <div className={classes.contentWrapper}>
                 <h2>{title}</h2>
+                <p className={classes.date}>{date} with: {tags.map((t, i)=> {return <span key={i} className={classes.tag}> {t} </span>})}</p>
                 <p>{description}</p>
             </div>
             <div className={classes.linksWrapper}>
