@@ -44,7 +44,7 @@ const SearchComponent = () => {
           value={searchQuery}
           onChange={handleSearchChange}
         />
-        <button type="submit">Search</button>
+        <button type="submit">SEARCH</button>
       </form>
       {searchResults.length > 0 ? (
         <div className={classes.projectsContainer}>

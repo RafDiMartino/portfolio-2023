@@ -1,0 +1,16 @@
+.pageContainer {
+    @apply flex flex-col items-center justify-center w-full px-5 pt-32;
+    
+    & > * {
+        margin-bottom: 4rem;
+    }
+
+    .pageHeader {
+        @apply text-white text-4xl font-josefin;
+    }
+
+    p {
+        @apply font-playfair text-center;
+        color: var(--color-white);
+    }
+}

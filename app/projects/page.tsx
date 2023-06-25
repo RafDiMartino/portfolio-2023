@@ -1,6 +1,5 @@
 import React from 'react'
-import { Project } from '../components/project/Project'
-import projectData from '../data/projects.json'
+import classes from "./page.module.css"
 import Search from '../components/search/Search'
 
 export const metadata = {
@@ -10,9 +9,13 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className="flex flex-col items-center justify-center w-full">
-      <h1 className="text-white">Projects</h1>
-      {/* { projectData.map( project =>  <Project src={project.src} alt={project.alt} title={project.title} repoLink={project.repoLink} projectLink={project.repoLink} description={project.description}/> )} */}
+    <main className={classes.pageContainer}>
+      <h1 className={classes.pageHeader}>PROJECTS</h1>
+      <div>
+        <p>Here are displayed all my web projects since I have started to play with web technologies.</p>
+        <p>Below you can search the by technogies to have access only to the projects you are interested in.</p>
+      </div>
+      
       <Search />
     </main>
   )
