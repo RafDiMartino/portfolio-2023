@@ -12,17 +12,28 @@
     }
 
     form {
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
         margin: 0 0 8rem 0;
+
         input {
             padding: .5rem 1rem;
             border-radius: 5px 0 0 5px;
             flex-grow: 1;
             max-width: 15rem;
             min-width: 10rem;
+        }
+
+        .dropdownMenu {
+            position: absolute;
+            top: 40px;
+            padding: .5rem 1rem;
+            max-width: 15rem;
+            min-width: 10rem;
+            background-color: aqua;
         }
 
         button {

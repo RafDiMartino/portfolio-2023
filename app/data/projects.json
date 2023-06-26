@@ -7,7 +7,7 @@
         "repoLink": "https://github.com/RafDiMartino/Technical-Documentation-Page",
         "projectLink": "https://rafdimartino.github.io/Technical%20Documentation%20Page/Technical%20Documentation%20Page.html",
         "description": "Technical Documentation Page about JavaScript syntax. Practicing Responsive Web Design using Media Queries and Flexbox.",
-        "tags": ["html", "css"]
+        "tags": ["css"]
     },
     {
         "alt": "Product Landing Page screenshot",
@@ -17,7 +17,7 @@
         "repoLink": "https://github.com/RafDiMartino/Product-Landing-Page",
         "projectLink": "https://rafdimartino.github.io/Product%20Landing%20Page/Landing%20Page.html",
         "description": "Product Landing Page for the Play Station controller. Practicing Responsive Web Design using Media Queries and Flexbox.",
-        "tags": ["html", "css"]
+        "tags": ["css"]
     },
     {
         "alt": "Survey Form screenshot",
@@ -37,6 +37,6 @@
         "repoLink": "https://github.com/RafDiMartino/Tribute-Page",
         "projectLink": "https://rafdimartino.github.io/Tribute-Page/tribute%20page.html",
         "description": "Tribute Page for Alexander The Great. Practicing Responsive Web Design using Media Queries and Flexbox.",
-        "tags": ["html", "css"]
+        "tags": ["html", "css", "javascript"]
     }
 ]
