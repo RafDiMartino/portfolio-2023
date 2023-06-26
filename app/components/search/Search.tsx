@@ -26,6 +26,7 @@ const SearchComponent = () => {
 
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLUListElement>(null);
+  const dropdownItemsRef = useRef<(HTMLLIElement | null)[]>([]);
 
   useEffect(() => {
     document.addEventListener('click', handleClickOutside);
@@ -34,6 +35,12 @@ const SearchComponent = () => {
       document.removeEventListener('click', handleClickOutside);
     };
   }, []);
+
+  useEffect(() => {
+    if (showDropdown) {
+      dropdownItemsRef.current[activeSuggestion]?.focus();
+    }
+  }, [activeSuggestion, showDropdown]);
 
   const handleClickOutside = (event: MouseEvent) => {
     if (inputRef.current && !inputRef.current.contains(event.target as Node)) {
@@ -50,20 +57,20 @@ const SearchComponent = () => {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'ArrowUp') {
+      e.preventDefault(); // Prevent scrolling
+      setActiveSuggestion((prev) => (prev <= 0 ? filteredTags.length - 1 : prev - 1));
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault(); // Prevent scrolling
+      setActiveSuggestion((prev) => (prev >= filteredTags.length - 1 ? 0 : prev + 1));
+    } else if (e.key === 'Enter' || e.key === 'Tab') {
+      e.preventDefault(); // Prevent form submission or focus change
       if (activeSuggestion >= 0 && activeSuggestion < filteredTags.length) {
-        e.preventDefault();
         const selectedTag = filteredTags[activeSuggestion];
         setSearchQuery(selectedTag);
         setShowDropdown(false);
         search(selectedTag.toLowerCase());
       }
-    } else if (e.key === 'ArrowDown') {
-      e.preventDefault();
-      setActiveSuggestion((prev) => (prev < filteredTags.length - 1 ? prev + 1 : prev));
-    } else if (e.key === 'ArrowUp') {
-      e.preventDefault();
-      setActiveSuggestion((prev) => (prev > 0 ? prev - 1 : prev));
     }
   };
 
@@ -80,6 +87,7 @@ const SearchComponent = () => {
     setSearchQuery(selectedTag);
     setShowDropdown(false);
     search(selectedTag.toLowerCase());
+    setActiveSuggestion(-1); // Reset active suggestion when a tag is selected
   };
 
   const search = (query: string) => {
@@ -96,6 +104,30 @@ const SearchComponent = () => {
     setFilteredTags(filtered);
   };
 
+  const handleDropdownKeyDown = (e: React.KeyboardEvent<HTMLUListElement>) => {
+    if (e.key === 'Tab') {
+      setShowDropdown(false);
+    }
+  };
+
+  const handleDropdownItemKeyDown = (e: React.KeyboardEvent<HTMLLIElement>, index: number) => {
+    if (e.key === 'Tab') {
+      setShowDropdown(false);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault(); // Prevent scrolling
+      setActiveSuggestion((prev) => (prev <= 0 ? filteredTags.length - 1 : prev - 1));
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault(); // Prevent scrolling
+      setActiveSuggestion((prev) => (prev >= filteredTags.length - 1 ? 0 : prev + 1));
+    } else if (e.key === 'Enter') {
+      e.preventDefault(); // Prevent form submission
+      const selectedTag = filteredTags[index];
+      setSearchQuery(selectedTag);
+      setShowDropdown(false);
+      search(selectedTag.toLowerCase());
+    }
+  };
+
   return (
     <section className={classes.searchSection}>
       <form onSubmit={handleSearchSubmit}>
@@ -110,13 +142,24 @@ const SearchComponent = () => {
             onKeyDown={handleKeyDown}
           />
           {showDropdown && (
-            <ul className={classes.dropdownMenu} ref={dropdownRef}>
+            <ul
+              className={classes.dropdownMenu}
+              ref={dropdownRef}
+              onKeyDown={handleDropdownKeyDown}
+              tabIndex={-1}
+            >
               {filteredTags.map((tag, index) => (
                 <li
                   key={tag}
-                  className={index === activeSuggestion ? `${classes.dropdownItem} ${classes.active}` : classes.dropdownItem}
+                  className={
+                    index === activeSuggestion
+                      ? `${classes.dropdownItem} ${classes.active}`
+                      : classes.dropdownItem
+                  }
                   onClick={() => handleDropdownSelect(tag)}
-                  tabIndex={-1}
+                  tabIndex={0}
+                  onKeyDown={(e) => handleDropdownItemKeyDown(e, index)}
+                  ref={(element) => (dropdownItemsRef.current[index] = element)}
                 >
                   {tag}
                 </li>
