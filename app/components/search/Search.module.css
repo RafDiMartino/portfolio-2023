@@ -27,7 +27,7 @@
             min-width: 10rem;
         }
 
-        .dropdownMenu {
+        * > datalist {
             position: absolute;
             top: 40px;
             padding: .5rem 1rem;
