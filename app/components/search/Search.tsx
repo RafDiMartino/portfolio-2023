@@ -141,33 +141,38 @@ const SearchComponent = () => {
             ref={inputRef}
             onKeyDown={handleKeyDown}
           />
-          {showDropdown && (
+
+        </div>
+        <button type="submit">SEARCH</button>
+        {showDropdown && (
             <ul
               className={classes.dropdownMenu}
               ref={dropdownRef}
               onKeyDown={handleDropdownKeyDown}
               tabIndex={-1}
             >
-              {filteredTags.map((tag, index) => (
-                <li
-                  key={tag}
-                  className={
-                    index === activeSuggestion
-                      ? `${classes.dropdownItem} ${classes.active}`
-                      : classes.dropdownItem
-                  }
-                  onClick={() => handleDropdownSelect(tag)}
-                  tabIndex={0}
-                  onKeyDown={(e) => handleDropdownItemKeyDown(e, index)}
-                  ref={(element) => (dropdownItemsRef.current[index] = element)}
-                >
-                  {tag}
-                </li>
-              ))}
+              {filteredTags.length > 0 ? (
+                filteredTags.map((tag, index) => (
+                  <li
+                    key={tag}
+                    className={
+                      index === activeSuggestion
+                        ? `${classes.dropdownItem} ${classes.active}`
+                        : classes.dropdownItem
+                    }
+                    onClick={() => handleDropdownSelect(tag)}
+                    tabIndex={0}
+                    onKeyDown={(e) => handleDropdownItemKeyDown(e, index)}
+                    ref={(element) => (dropdownItemsRef.current[index] = element)}
+                  >
+                    {tag}
+                  </li>
+                ))
+              ) : (
+                <li className={classes.dropdownItem}>No results found.</li>
+              )}
             </ul>
           )}
-        </div>
-        <button type="submit">SEARCH</button>
       </form>
       {searchResults.length > 0 ? (
         <div className={classes.projectsContainer}>
