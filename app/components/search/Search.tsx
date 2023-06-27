@@ -141,9 +141,6 @@ const SearchComponent = () => {
             ref={inputRef}
             onKeyDown={handleKeyDown}
           />
-
-        </div>
-        <button type="submit">SEARCH</button>
         {showDropdown && (
             <ul
               className={classes.dropdownMenu}
@@ -173,6 +170,9 @@ const SearchComponent = () => {
               )}
             </ul>
           )}
+        </div>
+        <button type="submit">SEARCH</button>
+
       </form>
       {searchResults.length > 0 ? (
         <div className={classes.projectsContainer}>

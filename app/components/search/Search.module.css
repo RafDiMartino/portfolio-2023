@@ -8,7 +8,6 @@
         justify-content: center;
         gap: 1.5rem;
         margin: 3rem 0;
-
     }
 
     form {
@@ -16,9 +15,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 13.1rem;
-        max-width: 19.15rem;
-        margin: 0 0 8rem 0;
+        margin: 0 0 10rem 0;
 
         input {
             padding: .5rem 1rem;
@@ -33,7 +30,10 @@
             background-color: var(--color-white);
             z-index: 10;
             max-height: 9rem;
-
+            height: 9rem;
+            opacity: 1;
+            transition: opacity 1s ease-out;
+            
             &::-webkit-scrollbar-track {
                 background: var(--color-white);
             }
@@ -45,9 +45,12 @@
 
             li {
                 padding: .3rem 1rem;
-                
+                height: auto;
                 &:focus {
                     outline: none;
+                    background-color: var(--color-accent);
+                }
+                &:hover {
                     background-color: var(--color-accent);
                 }
             }
