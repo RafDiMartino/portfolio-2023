@@ -4,6 +4,7 @@ import classes from "./Search.module.css";
 import { Project2 } from '../project/Project2';
 import data from "../../data/projects.json";
 import tagsData from "../../data/tags.json";
+import gsap from 'gsap';
 
 interface Item {
   src: string;
@@ -39,6 +40,22 @@ const SearchComponent = () => {
       dropdownItemsRef.current[activeSuggestion]?.focus();
     }
   }, [activeSuggestion, showDropdown]);
+
+  useEffect(() => {
+
+    gsap.fromTo(
+      ".projectAnimation",
+      {
+        autoAlpha: 0,
+      },
+      {
+        autoAlpha: 1,
+        duration: 1,
+        ease: "power2.in",
+        // delay: 1
+      }
+    )
+  }, [])
 
   const handleClickOutside = (event: MouseEvent) => {
     if (inputRef.current && !inputRef.current.contains(event.target as Node)) {
@@ -128,7 +145,7 @@ const SearchComponent = () => {
 
   return (
     <section className={classes.searchSection}>
-      <form onSubmit={handleSearchSubmit}>
+      <form className="projectAnimation" onSubmit={handleSearchSubmit}>
         <div className={classes.searchInputWrapper}>
           <input
             aria-label='search input'
@@ -168,7 +185,7 @@ const SearchComponent = () => {
         <button type="submit">SEARCH</button>
       </form>
       {searchResults.length > 0 ? (
-        <div className={classes.projectsContainer}>
+        <div className={`${classes.projectsContainer} projectAnimation`}>
           {searchResults.map((project, i) => (
             <Project2 key={i} {...project} />
           ))}
