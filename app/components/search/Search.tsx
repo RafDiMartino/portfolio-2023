@@ -133,6 +133,7 @@ const SearchComponent = () => {
       <form onSubmit={handleSearchSubmit}>
         <div className={classes.searchInputWrapper}>
           <input
+            aria-label='search input'
             type="text"
             placeholder="Search"
             value={searchQuery}
