@@ -67,7 +67,7 @@ export const Hero = () => {
                     }
                 </div>
             </h1>
-            <p className={`${classes.standfirst} heroAnimation`}>Web Developer with an Art & Design background</p>
+            <h2 className={`${classes.standfirst} heroAnimation`}>Web Developer with an Art & Design background</h2>
             <div className={`${classes.socialWrapper} heroAnimation`}>
                 <Link href="https://www.linkedin.com/in/raffaele-di-martino/" target="_blank" aria-label='Linkedin profile link'>
                     <svg viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
