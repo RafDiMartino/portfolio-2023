@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, ChangeEvent, FormEvent, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import classes from "./Search.module.css";
 import { Project2 } from '../project/Project2';
 import data from "../../data/projects.json";
@@ -25,12 +25,10 @@ const SearchComponent = () => {
   const [activeSuggestion, setActiveSuggestion] = useState(-1);
 
   const inputRef = useRef<HTMLInputElement>(null);
-  const dropdownRef = useRef<HTMLUListElement>(null);
   const dropdownItemsRef = useRef<(HTMLLIElement | null)[]>([]);
 
   useEffect(() => {
     document.addEventListener('click', handleClickOutside);
-
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
@@ -48,7 +46,7 @@ const SearchComponent = () => {
     }
   };
 
-  const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value;
     setSearchQuery(query);
     filterTags(query);
@@ -58,13 +56,13 @@ const SearchComponent = () => {
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'ArrowUp') {
-      e.preventDefault(); // Prevent scrolling
+      e.preventDefault();
       setActiveSuggestion((prev) => (prev <= 0 ? filteredTags.length - 1 : prev - 1));
     } else if (e.key === 'ArrowDown') {
-      e.preventDefault(); // Prevent scrolling
+      e.preventDefault();
       setActiveSuggestion((prev) => (prev >= filteredTags.length - 1 ? 0 : prev + 1));
     } else if (e.key === 'Enter' || e.key === 'Tab') {
-      e.preventDefault(); // Prevent form submission or focus change
+      e.preventDefault();
       if (activeSuggestion >= 0 && activeSuggestion < filteredTags.length) {
         const selectedTag = filteredTags[activeSuggestion];
         setSearchQuery(selectedTag);
@@ -74,20 +72,20 @@ const SearchComponent = () => {
     }
   };
 
-  const handleSearchSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSearchSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     search(searchQuery.toLowerCase());
   };
 
   const handleDropdownToggle = () => {
-    setShowDropdown(!showDropdown);
+    setShowDropdown((prevShowDropdown) => !prevShowDropdown);
   };
 
   const handleDropdownSelect = (selectedTag: string) => {
     setSearchQuery(selectedTag);
     setShowDropdown(false);
     search(selectedTag.toLowerCase());
-    setActiveSuggestion(-1); // Reset active suggestion when a tag is selected
+    setActiveSuggestion(-1);
   };
 
   const search = (query: string) => {
@@ -114,13 +112,13 @@ const SearchComponent = () => {
     if (e.key === 'Tab') {
       setShowDropdown(false);
     } else if (e.key === 'ArrowUp') {
-      e.preventDefault(); // Prevent scrolling
+      e.preventDefault();
       setActiveSuggestion((prev) => (prev <= 0 ? filteredTags.length - 1 : prev - 1));
     } else if (e.key === 'ArrowDown') {
-      e.preventDefault(); // Prevent scrolling
+      e.preventDefault();
       setActiveSuggestion((prev) => (prev >= filteredTags.length - 1 ? 0 : prev + 1));
     } else if (e.key === 'Enter') {
-      e.preventDefault(); // Prevent form submission
+      e.preventDefault();
       const selectedTag = filteredTags[index];
       setSearchQuery(selectedTag);
       setShowDropdown(false);
@@ -142,10 +140,9 @@ const SearchComponent = () => {
             ref={inputRef}
             onKeyDown={handleKeyDown}
           />
-        {showDropdown && (
+          {showDropdown && (
             <ul
               className={classes.dropdownMenu}
-              ref={dropdownRef}
               onKeyDown={handleDropdownKeyDown}
               tabIndex={-1}
             >
@@ -153,11 +150,7 @@ const SearchComponent = () => {
                 filteredTags.map((tag, index) => (
                   <li
                     key={tag}
-                    className={
-                      index === activeSuggestion
-                        ? `${classes.dropdownItem} ${classes.active}`
-                        : classes.dropdownItem
-                    }
+                    className={`${classes.dropdownItem} ${index === activeSuggestion ? classes.active : ''}`}
                     onClick={() => handleDropdownSelect(tag)}
                     tabIndex={0}
                     onKeyDown={(e) => handleDropdownItemKeyDown(e, index)}
@@ -173,22 +166,11 @@ const SearchComponent = () => {
           )}
         </div>
         <button type="submit">SEARCH</button>
-
       </form>
       {searchResults.length > 0 ? (
         <div className={classes.projectsContainer}>
           {searchResults.map((project, i) => (
-            <Project2
-              key={i}
-              src={project.src}
-              alt={project.alt}
-              title={project.title}
-              date={project.date}
-              tags={project.tags}
-              repoLink={project.repoLink}
-              projectLink={project.projectLink}
-              description={project.description}
-            />
+            <Project2 key={i} {...project} />
           ))}
         </div>
       ) : (
