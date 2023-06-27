@@ -17,20 +17,20 @@ export const Header = () => {
     setOpenMenu(!openMenu)
   }
 
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     ".headerAnimation",
-  //     {
-  //       autoAlpha: 0,
-  //     },
-  //     {
-  //       autoAlpha: 1,
-  //       duration: 1,
-  //       ease: "power2.in",
-  //       delay: 1
-  //     }
-  //   )
-  // }, [])
+  useEffect(() => {
+    gsap.fromTo(
+      ".headerAnimation",
+      {
+        autoAlpha: 0,
+      },
+      {
+        autoAlpha: 1,
+        duration: 1,
+        ease: "power2.in",
+        delay: 1
+      }
+    )
+  }, [])
 
   return (
     <header className={`${classes.header} headerAnimation`}>
