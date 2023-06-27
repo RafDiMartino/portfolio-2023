@@ -26,11 +26,11 @@
             @apply overflow-y-scroll;
             position: absolute;
             top: 40px;
+            border-radius: 5px;
             width: 100%;
             background-color: var(--color-white);
             z-index: 10;
             max-height: 9rem;
-            height: 9rem;
             opacity: 1;
             transition: opacity 1s ease-out;
             
