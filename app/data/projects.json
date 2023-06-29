@@ -1,13 +1,222 @@
 [
     {
+        "alt": "Supportus - Newcastle University screenshot",
+        "src": "/assets/projects-screenshot/advancement-ncl.jpg",
+        "title": "Supportus - Newcastle University",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://supportus.ncl.ac.uk/",
+        "description": "Website for Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "tags": [
+            "HubSpot",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Duplex Val Thorens Website screenshot",
+        "src": "/assets/projects-screenshot/duplex-val-thorens-website.jpg",
+        "title": "Duplex Val Thorens Website",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/duplex-val-thorens-nextjs",
+        "projectLink": "https://www.duplexvalthorens.com/",
+        "description": "Website for a private apartment renting business in a French Alps ski resort - Made with Next.js, focusing on SEO and Internationalisation",
+        "tags": [
+            "Next.js",
+            "React",
+            "Sass",
+            "- Freelance Work"
+        ]
+    },
+    {
+        "alt": "Laboratorio Creativo Website screenshot",
+        "src": "/assets/projects-screenshot/laboratorio-creativo-react.jpg",
+        "title": "Laboratorio Creativo Website",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/creative-lab/tree/master",
+        "projectLink": "https://laboratoriocreativo.net/",
+        "description": "Website for an artisan who customises shoes, candles and more - Made with React and Firebase",
+        "tags": [
+            "React",
+            "Firebase",
+            "Sass", 
+            "- Freelance Work"
+        ]
+    },
+    {
+        "alt": "Weather App screenshot",
+        "src": "/assets/projects-screenshot/react-weather-app.jpg",
+        "title": "Weather App",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/Weather-App/tree/master",
+        "projectLink": "https://rafdimartino.github.io/Weather-App/",
+        "description": "In this Progressive Web App, I fetch data from the openweathermap API using Axios, to display the current weather of the City searched",
+        "tags": [
+            "React"
+        ]
+    },
+    {
+        "alt": "Task manager screenshot",
+        "src": "/assets/projects-screenshot/task-manager.jpg",
+        "title": "Task manager",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/task-manager/tree/master",
+        "projectLink": "https://rafdimartino.github.io/task-manager/",
+        "description": "Progressive Web App, practising with CRUD operations, React Hooks and Material UI",
+        "tags": [
+            "React"
+        ]
+    },
+    {
+        "alt": "Portfolio website screenshot",
+        "src": "/assets/projects-screenshot/react-portfolio.jpg",
+        "title": "Portfolio website",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/React-Portfolio/tree/master",
+        "projectLink": "https://rafdimartino.com/",
+        "description": "Second version of my portfolio, made with React",
+        "tags": [
+            "React"
+        ]
+    },
+    {
+        "alt": "Quote Generator screenshot",
+        "src": "/assets/projects-screenshot/art-of-war-quote-gen.jpg",
+        "title": "The Art of War Quote Generator",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/the-art-of-war-random-quote-generator/tree/master",
+        "projectLink": "https://rafdimartino.github.io/the-art-of-war-random-quote-generator/",
+        "description": "My version of the Random Quote Machine Generator. Practicing with React hooks useState, useEffect and fetch data from a gist repositoy",
+        "tags": [
+            "React"
+        ]
+    },
+    {
+        "alt": "Counter App screenshot",
+        "src": "/assets/projects-screenshot/react-counter-app.jpg",
+        "title": "Counter App",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/react-counter-app/tree/master",
+        "projectLink": "https://rafdimartino.github.io/react-counter-app/",
+        "description": "React counter app. Practicing with react hooks useState and useEffect",
+        "tags": [
+            "React"
+        ]
+    },
+    {
+        "alt": "Personal Portfolio Page screenshot",
+        "src": "/assets/projects-screenshot/portfolio-page.jpg",
+        "title": "Personal Portfolio Page",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/RafDiMartino.github.io",
+        "projectLink": "https://rafdimartino.github.io/",
+        "description": "First version of my portfolio website, made with HTML, CSS and JavaScript",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "alt": "Laboratorio Creativo screenshot",
+        "src": "/assets/projects-screenshot/laboratorio-creativo.jpg",
+        "title": "Laboratorio Creativo",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/RafDiMartino.github.io/tree/main/Laboratorio%20Creativo",
+        "projectLink": "https://rafdimartino.github.io/Laboratorio%20Creativo/index.HTML",
+        "description": "Mobile First Design website, for an artisan who customises shoes, candles and more...",
+        "tags": [
+            "HTML",
+            "CSS",
+            "javascript"
+        ]
+    },
+    {
+        "alt": "Caesar Cipher screenshot",
+        "src": "/assets/projects-screenshot/caesar-cipher.jpg",
+        "title": "Caesar Cipher",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/Caesar-Cipher",
+        "projectLink": "https://rafdimartino.github.io/Caesar-Cipher/index.HTML",
+        "description": "My version of the Caesar Cipher with three methods of encryption.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "alt": "Simple calculator screenshot",
+        "src": "/assets/projects-screenshot/simple-calculator.jpg",
+        "title": "Simple calculator",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/Simple-Calculator",
+        "projectLink": "https://rafdimartino.github.io/Calculator/index.HTML",
+        "description": "Simple Calculator, practicing with JavaScript functions, DOM and events",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "alt": "Digital clock screenshot",
+        "src": "/assets/projects-screenshot/digital-clock.jpg",
+        "title": "Digital clock",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/Digital-Clock",
+        "projectLink": "https://rafdimartino.github.io/DigitalClock/index.HTML",
+        "description": "Practicing with JavaScript DOM manipulation and Date Object.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "alt": "Virtual piano screenshot",
+        "src": "/assets/projects-screenshot/virtual-piano.jpg",
+        "title": "Virtual piano",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/Virtual-Piano",
+        "projectLink": "https://rafdimartino.github.io/Virtual%20Piano-/Virtual%20Piano.HTML",
+        "description": "Practicing with JavaScript DOM manipulation and Events.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "alt": "Flash cards screenshot",
+        "src": "/assets/projects-screenshot/flash-cards.jpg",
+        "title": "Flash cards",
+        "date": "Made in 2021",
+        "repoLink": "https://github.com/RafDiMartino/Flashcards",
+        "projectLink": "https://rafdimartino.github.io/Flashcards/index.HTML",
+        "description": "Flashcards of Countries and Capitals. Practicing CSS Animations, Media Queries and CSS Grid.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
         "alt": "Technical Documentation Page screenshot",
         "src": "/assets/projects-screenshot/technical-doc-page.jpg",
         "title": "Technical Documentation Page",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Technical-Documentation-Page",
-        "projectLink": "https://rafdimartino.github.io/Technical%20Documentation%20Page/Technical%20Documentation%20Page.html",
+        "projectLink": "https://rafdimartino.github.io/Technical%20Documentation%20Page/Technical%20Documentation%20Page.HTML",
         "description": "Technical Documentation Page about JavaScript syntax. Practicing Responsive Web Design using Media Queries and Flexbox.",
-        "tags": ["css"]
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "alt": "Product Landing Page screenshot",
@@ -15,9 +224,12 @@
         "title": "Product Landing Page",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Product-Landing-Page",
-        "projectLink": "https://rafdimartino.github.io/Product%20Landing%20Page/Landing%20Page.html",
+        "projectLink": "https://rafdimartino.github.io/Product%20Landing%20Page/Landing%20Page.HTML",
         "description": "Product Landing Page for the Play Station controller. Practicing Responsive Web Design using Media Queries and Flexbox.",
-        "tags": ["css"]
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "alt": "Survey Form screenshot",
@@ -25,9 +237,12 @@
         "title": "Survey Form",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Survey-Form",
-        "projectLink": "https://rafdimartino.github.io/Survey%20Form/Survey%20Form.html",
+        "projectLink": "https://rafdimartino.github.io/Survey%20Form/Survey%20Form.HTML",
         "description": "Survey Form on programming languages. Practicing Mobile First Design using Media Queries and Flexbox.",
-        "tags": ["html", "css"]
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "alt": "Tribute Page screenshot",
@@ -35,8 +250,11 @@
         "title": "Tribute Page",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Tribute-Page",
-        "projectLink": "https://rafdimartino.github.io/Tribute-Page/tribute%20page.html",
+        "projectLink": "https://rafdimartino.github.io/Tribute-Page/tribute%20page.HTML",
         "description": "Tribute Page for Alexander The Great. Practicing Responsive Web Design using Media Queries and Flexbox.",
-        "tags": ["html", "css", "javascript"]
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
     }
 ]
