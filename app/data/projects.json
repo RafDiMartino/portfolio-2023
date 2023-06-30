@@ -1,9 +1,199 @@
 [
     {
+        "alt": "Mettle Capital screenshot",
+        "src": "/assets/projects-screenshot/mettle-capital.jpg",
+        "title": "Mettle Capital",
+        "date": "Made in 2023",
+        "repoLink": "",
+        "projectLink": "https://react.mettle.capital/",
+        "description": "edX Bootcamp Module 14/15. In this group project we made an app that automatically displays data and visualisations using Mettle Capital's API. Changing the companies manual entity report generation process, to an automated one. I have been hired after the bootcamp by Mettle Capital to finish the website as a Freelance Developer",
+        "tags": [
+            "React",
+            "- edX Bootcamp",
+            "- Freelance Work"
+        ]
+    },
+    {
+        "alt": "React Portfolio screenshot",
+        "src": "/assets/projects-screenshot/react-portfolio-edx.jpg",
+        "title": "React Portfolio",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
+        "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",
+        "description": "edX Bootcamp Module 13. In this assignement my task was to create a Personal Portfolio Webpage using React.js, and React-router-dom.",
+        "tags": [
+            "React",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Team Profile Generator screenshot",
+        "src": "/assets/projects-screenshot/team-profile-generator.jpg",
+        "title": "Team Profile Generator",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-12-challenge-team-profile-generator",
+        "projectLink": "",
+        "description": "edX Bootcamp Module 12. In this assignment my task was to create a command-line application that generates a webpage from user's input using Inquirer.js. Built in JavaScript, Node.js, uses ES6 sintax and Jest.js for unit testing",
+        "tags": [
+            "JavaScript",
+            "Node.js",
+            "Jest.js",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "README Generator screenshot",
+        "src": "/assets/projects-screenshot/readme-generator.jpg",
+        "title": "README Generator",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-11-challenge-professional-readme-generator",
+        "projectLink": "",
+        "description": "edX Bootcamp Module 11. In this assignment my task was to create a terminal application that generates a README.md file from user's input using Inquirer.js, the application is built in JavaScript, Node.js and uses ES6 sintax",
+        "tags": [
+            "JavaScript",
+            "Node.js",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Project WikiTube screenshot",
+        "src": "/assets/projects-screenshot/project-wikitube.jpg",
+        "title": "Project WikiTube",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-8-challenge-weather-dashboard",
+        "projectLink": "https://rafdimartino.github.io/module-8-challenge-weather-dashboard/",
+        "description": "edX Bootcamp Module 9/10. Group project, our task was to design and build a web app using two public APIs and use HTML, Bootstap, jQuery",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "jQuery",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Weather Dashboard screenshot",
+        "src": "/assets/projects-screenshot/weather-dashboard.jpg",
+        "title": "Weather Dashboard",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-8-challenge-weather-dashboard",
+        "projectLink": "https://rafdimartino.github.io/module-8-challenge-weather-dashboard/",
+        "description": "edX Bootcamp Module 8. In this assignment my task was to build a weather dashboard using the Open Weather API and use localStorage to make searches persistent. Made with HTML, Bootstrap and jQuery",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "jQuery",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Daily planner screenshot",
+        "src": "/assets/projects-screenshot/workday-sheduler.jpg",
+        "title": "Daily planner",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-7-challenge-daily-planner-app",
+        "projectLink": "https://rafdimartino.github.io/module-7-challenge-daily-planner-app/",
+        "description": "edX Bootcamp Module 7. In this assignment my task was to create a simple calendar application that allows a user to save events. Made with HTML, Bootstrap and jQuery",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "jQuery",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Quiz Game screenshot",
+        "src": "/assets/projects-screenshot/quiz-game.jpg",
+        "title": "Quiz Game",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-6-challenge-code-quiz",
+        "projectLink": "https://rafdimartino.github.io/module-6-challenge-code-quiz/index.html",
+        "description": "edX Bootcamp Module 6. In this assignment my task was to create a Coding Quiz Game about JavaScript that runs in the browser and features dynamically updated HTML and CSS, all powered by JavaScript.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Password Generator screenshot",
+        "src": "/assets/projects-screenshot/password-generator.jpg",
+        "title": "Password Generator",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-5-challenge-password-generator",
+        "projectLink": "https://rafdimartino.github.io/module-5-challenge-password-generator/",
+        "description": "edX Bootcamp Module 5. In this assignment my task was to create Password Generator that generates a password when the button \"Generate Password\" is clicked. Made with HTML, CSS, JavaScript",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Console Finances screenshot",
+        "src": "/assets/projects-screenshot/console-finance2.jpg",
+        "title": "Console Finances",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/module-4-challenge-console-finances",
+        "projectLink": "https://rafdimartino.github.io/module-4-challenge-console-finances/",
+        "description": "edX Bootcamp Module 4. In this assignment my task was to create a financial analysis tool by writing JavaScript code that analyzes the records to calculate profit/losses",
+        "tags": [
+            "HTML",
+            "JavaScript",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Bootstrap Portfolio Page screenshot",
+        "src": "/assets/projects-screenshot/bootstrap-portfolio.jpg",
+        "title": "Bootstrap Portfolio Page",
+        "date": "Made in 2022",
+        "repoLink": "https://github.com/RafDiMartino/module-3-challenge-bootstrap-portfolio",
+        "projectLink": "https://rafdimartino.github.io/module-3-challenge-bootstrap-portfolio/",
+        "description": "edX Bootcamp Module 3. In this assignment my task was to create a responsive portfolio webpage by using Bootstrap: Bootsrtap Navigation, Bootstrap Jumbotron, Bootstrap Grid, Bootstrap Cards",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Portfolio page screenshot",
+        "src": "/assets/projects-screenshot/portfolio-page-edx.jpg",
+        "title": "Portfolio page",
+        "date": "Made in 2022",
+        "repoLink": "https://github.com/RafDiMartino/module-2-challenge",
+        "projectLink": "https://rafdimartino.github.io/module-2-challenge/",
+        "description": "edX Bootcamp Module 2. In this assignment my task was to create a Personal Portfolio Webpage by practicing with: CSS flexbox, CSS grid, CSS variables and CSS media queries",
+        "tags": [
+            "HTML",
+            "CSS",
+            "- edX Bootcamp"
+        ]
+    },
+    {
+        "alt": "Code refactor screenshot",
+        "src": "/assets/projects-screenshot/code-refactor.jpg",
+        "title": "Code refactor",
+        "date": "Made in 2022",
+        "repoLink": "https://github.com/RafDiMartino/module-1-challenge",
+        "projectLink": "https://rafdimartino.github.io/module-1-challenge/",
+        "description": "edX Bootcamp Module 1. In this assignment my task was to refactor the HTML code to meet modern \"Accessibility\" standards.",
+        "tags": [
+            "HTML",
+            "- edX Bootcamp"
+        ]
+    },
+    {
         "alt": "Wardour screenshot",
         "src": "/assets/projects-screenshot/wardour.jpg",
         "title": "Wardour Website",
-        "date": "Made in 2022",
+        "date": "Made in 2023",
         "repoLink": "",
         "projectLink": "https://wardour.co.uk/",
         "description": "Wardour website, in this project, we have redone the company website by updating it to the new version of the CMS and refactoring templates, components and removing all the old jQuery code with vanilla JavaScript, done while working at Wardour Communications using ExpressionEngine CMS",
@@ -228,7 +418,7 @@
         "tags": [
             "React",
             "Firebase",
-            "Sass", 
+            "Sass",
             "- Freelance Work"
         ]
     },

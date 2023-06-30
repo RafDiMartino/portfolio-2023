@@ -95,6 +95,11 @@
         "tooltip": "Firebase"
     },
     {
+        "alt": "jest logo",
+        "src": "./assets/skills-logos/jest.svg",
+        "tooltip": "Jest.js"
+    },
+    {
         "alt": "Figma logo",
         "src": "./assets/skills-logos/figma.svg",
         "tooltip": "Figma"
