@@ -1,12 +1,196 @@
 [
     {
+        "alt": "Wardour screenshot",
+        "src": "/assets/projects-screenshot/wardour.jpg",
+        "title": "Wardour Website",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://wardour.co.uk/",
+        "description": "Wardour website, in this project, we have redone the company website by updating it to the new version of the CMS and refactoring templates, components and removing all the old jQuery code with vanilla JavaScript, done while working at Wardour Communications using ExpressionEngine CMS",
+        "tags": [
+            "ExpressionEngine",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Levelling up the UK screenshot",
+        "src": "/assets/projects-screenshot/levelling-up.jpg",
+        "title": "Levelling up the UK",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://group.legalandgeneral.com/en/inclusive-capitalism/investing-for-good/levelling-up-the-uk",
+        "description": "Web Application made for Legal & General, done while working at Wardour Communications using JavaScript",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vite",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Ride with renewi screenshot",
+        "src": "/assets/projects-screenshot/renewi-game.jpg",
+        "title": "Ride with renewi",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://renewi.wardourdigital.co.uk/game/",
+        "description": "Game made for Renewi, in this project I worked on the initial research of the Phaser 3 game library, transitions between levels and scoring point system, done while working at Wardour Communications using JavaScript",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vite",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Net Zero Investor screenshot",
+        "src": "/assets/projects-screenshot/net-zero-investor.jpg",
+        "title": "Net Zero Investor",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://www.netzeroinvestor.net/",
+        "description": "Website for Net Zero Investor done while working at Wardour Communications using ExpressionEngine CMS",
+        "tags": [
+            "ExpressionEngine",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Policy Newcastle screenshot",
+        "src": "/assets/projects-screenshot/nu-policy-ncl.jpg",
+        "title": "Policy Newcastle",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://policy.ncl.ac.uk/",
+        "description": "Website for Policy Newcastle of Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "tags": [
+            "HubSpot",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "NUMed Malaysia screenshot",
+        "src": "/assets/projects-screenshot/numed-malaysia-ncl.jpg",
+        "title": "NUMed Malaysia",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://www.ncl.ac.uk/numed/",
+        "description": "Website for NUMed Malaysia of Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "tags": [
+            "HubSpot",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Centre for Landscape screenshot",
+        "src": "/assets/projects-screenshot/centre-for-landscape.jpg",
+        "title": "Centre for Landscape",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://www.ncl.ac.uk/landscape/",
+        "description": "Website for Centre for Landscape of Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "tags": [
+            "HubSpot",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Centre for Ageing and Inequalities screenshot",
+        "src": "/assets/projects-screenshot/centre-for-ageing-ncl.jpg",
+        "title": "Centre for Ageing and Inequalities",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://www.ncl.ac.uk/ageing-inequalities/",
+        "description": "Website for Centre for Ageing and Inequalities of Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "tags": [
+            "HubSpot",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Centre for Rare Disease screenshot",
+        "src": "/assets/projects-screenshot/rare-diseases-ncl.jpg",
+        "title": "Centre for Rare Disease",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://www.ncl.ac.uk/rare-diseases/",
+        "description": "Website for Centre for Rare Disease of Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "tags": [
+            "HubSpot",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
+        "alt": "Centre for Climate and Environmental Resilience screenshot",
+        "src": "/assets/projects-screenshot/climate-change-ncl.jpg",
+        "title": "Centre for Climate and Environmental Resilience",
+        "date": "Made in 2022",
+        "repoLink": "",
+        "projectLink": "https://www.ncl.ac.uk/environmental-climate-resilience/",
+        "description": "Website for Centre for Climate and Environmental Resilience of Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "tags": [
+            "HubSpot",
+            "CMS",
+            "Sass",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "- Employment Work"
+        ]
+    },
+    {
         "alt": "Supportus - Newcastle University screenshot",
         "src": "/assets/projects-screenshot/advancement-ncl.jpg",
         "title": "Supportus - Newcastle University",
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://supportus.ncl.ac.uk/",
-        "description": "Website for Newcastle University done while working at Wardour Communications using HubSpot CMS",
+        "description": "Website for Supportus Newcastle University done while working at Wardour Communications using HubSpot CMS",
         "tags": [
             "HubSpot",
             "CMS",
