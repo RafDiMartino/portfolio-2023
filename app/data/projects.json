@@ -1,5 +1,22 @@
 [
     {
+        "alt": "Lament configuration",
+        "src": "/assets/projects-screenshot/testGif5.gif",
+        "title": "Lament configuration",
+        "date": "Made in 2023",
+        "repoLink": "https://github.com/RafDiMartino/lament-configuration",
+        "projectLink": "https://lament-configuration.vercel.app/",
+        "description": "Iconic LeMarchand Configuration puzzle box from the cult movie Hellriser. the project is done with Three.js, Typescript, Next.js and the 3D model is done by me in Blender",
+        "tags": [
+            "Next.js",
+            "React",
+            "Typescript",
+            "Three.js",
+            "Blender",
+            "- Personal Projects"
+        ]
+    },
+    {
         "alt": "Mettle Capital screenshot",
         "src": "/assets/projects-screenshot/mettle-capital.jpg",
         "title": "Mettle Capital",
