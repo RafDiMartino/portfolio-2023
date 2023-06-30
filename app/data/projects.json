@@ -448,7 +448,8 @@
         "projectLink": "https://rafdimartino.github.io/Weather-App/",
         "description": "In this Progressive Web App, I fetch data from the openweathermap API using Axios, to display the current weather of the City searched",
         "tags": [
-            "React"
+            "React",
+            "- Personal Project"
         ]
     },
     {
@@ -460,7 +461,8 @@
         "projectLink": "https://rafdimartino.github.io/task-manager/",
         "description": "Progressive Web App, practising with CRUD operations, React Hooks and Material UI",
         "tags": [
-            "React"
+            "React",
+            "- Personal Project"
         ]
     },
     {
@@ -472,7 +474,8 @@
         "projectLink": "https://rafdimartino.com/",
         "description": "Second version of my portfolio, made with React",
         "tags": [
-            "React"
+            "React",
+            "- Personal Project"
         ]
     },
     {
@@ -484,7 +487,8 @@
         "projectLink": "https://rafdimartino.github.io/the-art-of-war-random-quote-generator/",
         "description": "My version of the Random Quote Machine Generator. Practicing with React hooks useState, useEffect and fetch data from a gist repositoy",
         "tags": [
-            "React"
+            "React",
+            "- Personal Project"
         ]
     },
     {
@@ -496,7 +500,8 @@
         "projectLink": "https://rafdimartino.github.io/react-counter-app/",
         "description": "React counter app. Practicing with react hooks useState and useEffect",
         "tags": [
-            "React"
+            "React",
+            "- Personal Project"
         ]
     },
     {
@@ -510,7 +515,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "- Personal Project"
         ]
     },
     {
@@ -524,7 +530,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "javascript"
+            "javascript",
+            "- Personal Project"
         ]
     },
     {
@@ -538,7 +545,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "- Personal Project"
         ]
     },
     {
@@ -552,7 +560,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "- Personal Project"
         ]
     },
     {
@@ -566,7 +575,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "- Personal Project"
         ]
     },
     {
@@ -580,7 +590,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "- Personal Project"
         ]
     },
     {
@@ -593,7 +604,8 @@
         "description": "Flashcards of Countries and Capitals. Practicing CSS Animations, Media Queries and CSS Grid.",
         "tags": [
             "HTML",
-            "CSS"
+            "CSS",
+            "- Personal Project"
         ]
     },
     {
@@ -606,7 +618,8 @@
         "description": "Technical Documentation Page about JavaScript syntax. Practicing Responsive Web Design using Media Queries and Flexbox.",
         "tags": [
             "HTML",
-            "CSS"
+            "CSS",
+            "- Personal Project"
         ]
     },
     {
@@ -619,7 +632,8 @@
         "description": "Product Landing Page for the Play Station controller. Practicing Responsive Web Design using Media Queries and Flexbox.",
         "tags": [
             "HTML",
-            "CSS"
+            "CSS",
+            "- Personal Project"
         ]
     },
     {
@@ -632,7 +646,8 @@
         "description": "Survey Form on programming languages. Practicing Mobile First Design using Media Queries and Flexbox.",
         "tags": [
             "HTML",
-            "CSS"
+            "CSS",
+            "- Personal Project"
         ]
     },
     {
@@ -645,7 +660,8 @@
         "description": "Tribute Page for Alexander The Great. Practicing Responsive Web Design using Media Queries and Flexbox.",
         "tags": [
             "HTML",
-            "CSS"
+            "CSS",
+            "- Personal Project"
         ]
     }
 ]
