@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
 import classes from "./Search.module.css";
-import { Project2 } from '../project/Project2';
+import { Project } from '../project/Project';
 import data from "../../data/projects.json";
 import tagsData from "../../data/tags.json";
 import gsap from 'gsap';
@@ -187,7 +187,7 @@ const SearchComponent = () => {
       {searchResults.length > 0 ? (
         <div className={`${classes.projectsContainer} projectAnimation`}>
           {searchResults.map((project, i) => (
-            <Project2 key={i} {...project} />
+            <Project key={i} {...project} />
           ))}
         </div>
       ) : (
