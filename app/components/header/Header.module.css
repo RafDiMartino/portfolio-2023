@@ -67,7 +67,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: calc(100% - 51px);
   }
 
   ul > * {
