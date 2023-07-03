@@ -2,6 +2,7 @@ import React from 'react'
 import classes from "./Project.module.css"
 import Image from 'next/image';
 import Link from 'next/link';
+import { Button } from '../buttons/Button';
 
 interface projectData {
     src: string;
@@ -30,7 +31,7 @@ export const Project = ({ src, alt, title, date, tags, repoLink, projectLink, de
                     projectLink === "" ?
                         <></>
                         :
-                        <Link className={classes.liveLink} target="_blank" href={projectLink}>View project</Link>
+                        <Button link={projectLink} btnText="View Project"/>
                 }
                 {
                     repoLink === "" ?
