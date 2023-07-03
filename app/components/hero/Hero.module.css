@@ -50,6 +50,15 @@
         }
     }
 
+    .introduction {
+        @apply font-playfair max-w-screen-lg py-7;
+        opacity: 0;
+
+        @screen md {
+            text-align: center;
+        }
+    }
+
     .socialWrapper {
         @apply py-7;
         opacity: 0;

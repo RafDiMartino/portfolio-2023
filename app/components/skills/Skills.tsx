@@ -18,8 +18,8 @@ export const Skills = () => {
       {
         autoAlpha: 1,
         duration: 1,
-        delay: 2,
-        ease: "power2.in",
+        delay: 2.5,
+        ease: "power2.inOut",
         scrollTrigger: {
           trigger: ".skillSectionTrigger",
         }
@@ -29,7 +29,7 @@ export const Skills = () => {
       ".skillAnimation",
       {
         autoAlpha: 1,
-        ease: "power3.in",
+        ease: "power3.inOut",
         stagger: {
           amount: 1.5
         },
@@ -41,7 +41,7 @@ export const Skills = () => {
       {
         autoAlpha: 1,
         duration: 1,
-        ease: "power2.in",
+        ease: "power2.inOut",
       },
       ">"
     )
