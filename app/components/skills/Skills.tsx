@@ -18,10 +18,10 @@ export const Skills = () => {
       {
         autoAlpha: 1,
         duration: 1,
-        delay: 2.5,
+        delay: 2,
         ease: "power2.inOut",
         scrollTrigger: {
-          trigger: ".skillSectionTrigger",
+          trigger: ".skillAnimation",
         }
       }
     )
