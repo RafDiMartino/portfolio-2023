@@ -17,11 +17,8 @@ export const Hero = () => {
 
 
     useEffect(() => {
-        let nameReveal = gsap.timeline()
-        nameReveal.fromTo(".nameAnimation",
-            {
-                autoAlpha: 0,
-            },
+        let heroReveal = gsap.timeline()
+        heroReveal.to(".nameAnimation",
             {
                 autoAlpha: 1,
                 delay: 0,
@@ -31,16 +28,12 @@ export const Hero = () => {
                 }
             }
         )
-        gsap.fromTo(
+        heroReveal.to(
             ".heroAnimation",
-            {
-                autoAlpha: 0,
-            },
             {
                 autoAlpha: 1,
                 duration: 1,
                 ease: "power2.in",
-                delay: 1
             }
         )
     }, [])

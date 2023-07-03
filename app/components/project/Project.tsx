@@ -31,7 +31,7 @@ export const Project = ({ src, alt, title, date, tags, repoLink, projectLink, de
                     projectLink === "" ?
                         <></>
                         :
-                        <Button link={projectLink} btnText="View Project"/>
+                        <Button link={projectLink} btnText="View Project" target="_blank"/>
                 }
                 {
                     repoLink === "" ?

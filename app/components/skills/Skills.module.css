@@ -1,6 +1,6 @@
 .skillsContainer {
     color: var(--color-white);
-    min-height: calc(100vh - 91px);
+    /* min-height: calc(100vh - 91px);*/
     @apply font-josefin;
 
     & > * {
@@ -60,6 +60,18 @@
             &:hover {
                 opacity: 1;
             }
+        }
+    }
+
+    .btnWrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2rem 0 4rem;
+
+        @screen md {
+            justify-content: center;
+            gap: 4rem;
         }
     }
 }
