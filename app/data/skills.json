@@ -60,14 +60,14 @@
         "tooltip": "Sass"
     },
     {
-        "alt": "HuSpot logo",
-        "src": "./assets/skills-logos/hubspot.svg",
-        "tooltip": "HuSpot"
-    },
-    {
         "alt": "ExpressionEngine logo",
         "src": "./assets/skills-logos/expressionengine.svg",
         "tooltip": "ExpressionEngine"
+    },
+    {
+        "alt": "HuSpot logo",
+        "src": "./assets/skills-logos/hubspot.svg",
+        "tooltip": "HuSpot"
     },
     {
         "alt": "Vite logo",

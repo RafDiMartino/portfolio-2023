@@ -38,10 +38,6 @@ export const Hero = () => {
         )
     }, [])
 
-    // useEffect(() => {
-
-    // }, [])
-
     return (
         <section className={`${classes.heroSection}`}>
             <h1 className={classes.nameWrapper}>

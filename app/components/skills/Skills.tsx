@@ -12,46 +12,50 @@ gsap.registerPlugin(ScrollTrigger)
 export const Skills = () => {
 
   useEffect(() => {
-    gsap.fromTo(
+    let skillsReveal = gsap.timeline()
+    skillsReveal.to(
       ".skillsSectionAnimation",
-      {
-        autoAlpha: 0,
-      },
       {
         autoAlpha: 1,
         duration: 1,
+        delay: 2,
         ease: "power2.in",
         scrollTrigger: {
-          trigger: ".skillsSectionAnimation"
+          trigger: ".skillSectionTrigger",
         }
       }
     )
-
-    gsap.fromTo(
+    skillsReveal.to(
       ".skillAnimation",
-      {
-        autoAlpha: 0,
-      },
       {
         autoAlpha: 1,
         ease: "power3.in",
         stagger: {
-          amount: 2.5
+          amount: 1.5
         },
-        delay: 2.5
-      }
+      },
+      ">"
+    )
+    skillsReveal.to(
+      ".btnAnimation",
+      {
+        autoAlpha: 1,
+        duration: 1,
+        ease: "power2.in",
+      },
+      ">"
     )
   }, [])
 
   return (
     <>
-      <section className={`${classes.skillsContainer}`}>
-        <h2 className={`skillsSectionAnimation`}>SKILLS</h2>
-        <p className={`skillsSectionAnimation`}>Technologies I have used in my web development career</p>
-        <div className={`${classes.skillWrapper} skillsSectionAnimation`}>
+      <section className={`${classes.skillsContainer} skillsSectionAnimation`}>
+        <h2 className='skillSectionTrigger'>SKILLS</h2>
+        <p >Technologies I have used in my web development career</p>
+        <div className={`${classes.skillWrapper} `}>
           {skill.map((skill, i) => <Skill src={skill.src} alt={skill.alt} key={i} tooltip={skill.tooltip} />)}
         </div>
-        <div className={classes.btnWrapper}>
+        <div className={`${classes.btnWrapper} btnAnimation`}>
           <Button link="/projects" btnText="Projects" target="" />
           <Button link="/contacts" btnText="Contacts" target="" />
         </div>
