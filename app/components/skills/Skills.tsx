@@ -22,14 +22,16 @@ export const Skills = () => {
       {
         autoAlpha: 1,
         y: 0 ,
-        ease: "power2.inOut",
+        ease: "back.out(1.7)",
+        // ease: "steps(20)",
         scrollTrigger: {
-          trigger: ".skillsSectionAnimation",
+          trigger: ".skillSectionTrigger",
           toggleActions: "restart none none none",
-          // markers: true
+          markers: true,
+          scrub: true
         },
         stagger: {
-          amount: 1.5
+          each: 0.04,
         }
       }
     )
