@@ -1,0 +1,39 @@
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .socialWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease-in-out;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+        gap: 3rem;
+
+        a {
+            width: 40px;
+            @screen md {
+                width: 50px
+            }
+
+            &:hover svg {
+                transition: fill all 1s ease-in-out;
+
+                path {
+                    transition: fill .2s ease;
+                    fill: var(--color-white);
+
+                }
+
+                &:hover path {
+                    fill: var(--color-accent);
+                }
+
+            }
+        }
+    }
+}

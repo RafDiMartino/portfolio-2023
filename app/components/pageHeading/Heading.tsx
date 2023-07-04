@@ -26,11 +26,11 @@ export const ProjectHeading = ({title, standfirst} : headings) => {
   }, [])
 
   return (
-    <div className={`${classes.headingContainer} headingAnimation`}>
+    <section className={`${classes.headingContainer} headingAnimation`}>
       <h1 className={classes.pageHeader}>{title}</h1>
       <div className={classes.standfirst}>
       {standfirst.map((s, i) => <p key={i}>{s}</p>)}
       </div>
-    </div>
+    </section>
   )
 }
