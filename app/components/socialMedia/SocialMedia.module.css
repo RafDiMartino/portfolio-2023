@@ -39,4 +39,21 @@
             }
         }
     }
+
+    .btnCV {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem 1rem;
+        border-radius: 5px;
+        font-family: var(--font-josefin-sans);
+        background-color: var(--color-white);
+        color: var(--color-primary);
+        transition: background-color .2s ease-in-out;
+        width: fit-content;
+        &:hover {
+            background-color: var(--color-accent);
+        }
+    }
 }

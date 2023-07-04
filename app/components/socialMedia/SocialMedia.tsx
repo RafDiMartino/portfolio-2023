@@ -1,9 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import classes from "./SocialMedia.module.css"
-import { Button } from '../buttons/Button'
 
-function SocialMedia() {
+export const SocialMedia = () => {
     return (
         <section className={classes.socialContainer}>
             <div className={classes.socialWrapper}>
@@ -26,11 +25,8 @@ function SocialMedia() {
                 </Link>
                 
             </div>
-            {/* <Button link='/assets/cv/cv.pdf' target='_blank' btnText='Download my CV' /> */}
-            <a className="text-white" href="/assets/cv/cv.pdf" target='_blank'>CV</a>
+            <a className={classes.btnCV} href="/assets/cv/cv.pdf" target='_blank'>Download my CV</a>
         </section>
 
     )
 }
-
-export default SocialMedia
