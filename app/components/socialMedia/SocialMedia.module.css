@@ -4,6 +4,10 @@
     justify-content: center;
     align-items: center;
 
+    & > * {
+        margin: 0 0 3rem 0;
+    }
+
     .socialWrapper {
         width: 100%;
         display: flex;
@@ -11,7 +15,6 @@
         align-items: center;
         transition: all 1s ease-in-out;
         flex-wrap: wrap;
-        margin-bottom: 3rem;
         gap: 3rem;
 
         a {

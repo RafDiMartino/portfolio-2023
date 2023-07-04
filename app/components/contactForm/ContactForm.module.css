@@ -1,0 +1,58 @@
+.contactFormContainer {
+    @apply max-w-lg;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & > * {
+            @apply font-playfair;
+            width: 100%;
+            padding: .5rem;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+        }
+
+        button {
+            @apply font-josefin;
+            text-transform: uppercase;
+            background-color: var(--color-accent);
+            transition: background-color .2s ease-in-out;
+            padding: .5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--color-white);
+            }
+        } 
+    }
+
+    .successMessageInactive {
+        @apply font-playfair;
+        opacity: 0;
+        font-size: 1.5rem;
+        text-align: center;
+        color: var(--color-white);
+        transition: opacity 1s ease-in-out;
+    }
+
+    .successMessageActive {
+        @apply font-playfair;
+        opacity: 1;
+        font-size: 1.5rem;
+        text-align: center;
+        color: var(--color-white);
+        transition: opacity .2s ease-in-out;
+    }
+
+}
