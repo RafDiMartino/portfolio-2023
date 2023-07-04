@@ -26,7 +26,8 @@ function SocialMedia() {
                 </Link>
                 
             </div>
-            <Button link='/assets/cv/cv.pdf' target='_blank' btnText='Download my CV' />
+            {/* <Button link='/assets/cv/cv.pdf' target='_blank' btnText='Download my CV' /> */}
+            <a className="text-white" href="/assets/cv/cv.pdf" target='_blank'>CV</a>
         </section>
 
     )
