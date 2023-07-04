@@ -1,0 +1,16 @@
+{
+    "projects": {
+        "title": "PROJECTS",
+        "standfirst": [
+            "Here are displayed all my web projects since I have started playing with web technologies.",
+            "Below you can search the by technogy to view only to the projects you are interested in."
+        ]
+    },
+    "contacts": {
+        "title": "CONTACTS",
+        "standfirst": [
+            "You can contact me through the links below or send me a message through the form"
+        ]
+    }
+}
+    

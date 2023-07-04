@@ -1,0 +1,7 @@
+.pageContainer {
+    @apply flex flex-col items-center justify-center w-full px-5 pt-40;
+    
+    & > * {
+        margin-bottom: 4rem;
+    }
+}
