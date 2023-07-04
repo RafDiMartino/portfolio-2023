@@ -4,8 +4,10 @@
     justify-content: center;
     align-items: center;
     opacity: 0;
+
     .pageHeader {
         @apply text-white text-4xl font-josefin mb-16;
+        font-weight: bold;
     }
     .standfirst {
     
