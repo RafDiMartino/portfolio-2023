@@ -2,7 +2,6 @@
 import React, { useEffect } from 'react'
 import classes from "./projectHeading.module.css"
 import gsap from 'gsap'
-// import headings from "../../data/headings.json"
 
 interface headings {
   title: string;
