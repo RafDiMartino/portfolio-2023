@@ -33,12 +33,34 @@
             font-size: bold;
             border: 2px solid var(--color-accent);
             color: var(--color-accent);
+            background-color: var(--color-secondary);
             transition: color .2s ease-in-out, border .2s ease-in-out;
             &:hover {
                 border: 2px solid var(--color-white);
                 color: var(--color-white);
             }
-        } 
+        }
+
+        input {
+            border: 2px solid var(--color-primary);
+        }
+
+        input[type=text],
+        textarea {
+            background-color: var(--color-secondary);
+            color: var(--color-white);
+
+            &::placeholder {
+                transition: all .2s ease-in-out;
+                color: var(--color-white);
+            }
+
+            &:hover {
+                &::placeholder {
+                    color: var(--color-accent);
+                }
+            }
+        }
     }
 
     .successMessageInactive {
