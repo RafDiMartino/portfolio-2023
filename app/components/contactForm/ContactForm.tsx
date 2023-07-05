@@ -69,7 +69,7 @@ export const ContactForm: React.FC = () => {
     }
 
     return (
-        <section className={classes.contactFormContainer}>
+        <section className={`${classes.contactFormContainer}`}>
             <form onSubmit={handleSubmit}>
                 <input name='name' value={formData.name} onChange={handleChange} type='text' placeholder='Enter your Name' aria-label='Name' />
                 <input name='email' value={formData.email} onChange={handleChange} type='text' placeholder='Enter your Email Address' aria-label='Email' />

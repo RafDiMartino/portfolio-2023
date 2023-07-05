@@ -4,7 +4,7 @@ import classes from "./SocialMedia.module.css"
 
 export const SocialMedia = () => {
     return (
-        <section className={classes.socialContainer}>
+        <section className={`${classes.socialContainer}`}>
             <div className={classes.socialWrapper}>
 
                 <Link href="https://www.linkedin.com/in/raffaele-di-martino/" target="_blank" aria-label='Linkedin profile link'>

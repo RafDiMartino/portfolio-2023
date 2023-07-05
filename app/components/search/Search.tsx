@@ -41,21 +41,21 @@ const SearchComponent = () => {
     }
   }, [activeSuggestion, showDropdown]);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    gsap.fromTo(
-      ".projectAnimation",
-      {
-        autoAlpha: 0,
-      },
-      {
-        autoAlpha: 1,
-        duration: 1,
-        ease: "power2.in",
-        // delay: 1
-      }
-    )
-  }, [])
+  //   gsap.fromTo(
+  //     ".projectAnimation",
+  //     {
+  //       autoAlpha: 0,
+  //     },
+  //     {
+  //       autoAlpha: 1,
+  //       duration: 1,
+  //       ease: "power2.in",
+  //       // delay: 1
+  //     }
+  //   )
+  // }, [])
 
   const handleClickOutside = (event: MouseEvent) => {
     if (inputRef.current && !inputRef.current.contains(event.target as Node)) {
@@ -145,7 +145,7 @@ const SearchComponent = () => {
 
   return (
     <section className={classes.searchSection}>
-      <form className="projectAnimation" onSubmit={handleSearchSubmit}>
+      <form onSubmit={handleSearchSubmit}>
         <div className={classes.searchInputWrapper}>
           <input
             aria-label='search input'
@@ -185,7 +185,7 @@ const SearchComponent = () => {
         <button type="submit">SEARCH</button>
       </form>
       {searchResults.length > 0 ? (
-        <div className={`${classes.projectsContainer} projectAnimation`}>
+        <div className={`${classes.projectsContainer}`}>
           {searchResults.map((project, i) => (
             <Project key={i} {...project} />
           ))}
