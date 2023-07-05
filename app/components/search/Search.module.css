@@ -9,6 +9,7 @@
         margin: 0 0 10rem 0;
 
         input {
+            @apply font-playfair;
             padding: .5rem 1rem;
             border-radius: 5px 0 0 5px;
         }
@@ -35,6 +36,7 @@
             }
 
             li {
+                @apply font-playfair;
                 padding: .3rem 1rem;
                 height: auto;
                 &:focus {
