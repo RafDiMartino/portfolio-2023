@@ -14,6 +14,17 @@
             border-radius: 5px 0 0 5px;
             border: 2px solid var(--color-secondary);
             background-color: var(--color-secondary);
+            
+            &::placeholder {
+                transition: all .2s ease-in-out;
+                color: var(--color-white);
+            }
+
+            &:hover {
+                &::placeholder {
+                    color: var(--color-accent);
+                }
+            }
         }
 
         .dropdownMenu {
