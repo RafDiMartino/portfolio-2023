@@ -77,8 +77,8 @@
         "src": "/assets/projects-screenshot/project-wikitube.jpg",
         "title": "Project WikiTube",
         "date": "Made in 2023",
-        "repoLink": "https://github.com/RafDiMartino/module-8-challenge-weather-dashboard",
-        "projectLink": "https://rafdimartino.github.io/module-8-challenge-weather-dashboard/",
+        "repoLink": "https://github.com/RafDiMartino/project-wikitube",
+        "projectLink": "https://rafdimartino.github.io/project-wikitube/",
         "description": "edX Bootcamp Module 9/10. Group project, our task was to design and build a web app using two public APIs and use HTML, Bootstap, jQuery",
         "tags": [
             "HTML",
