@@ -1,7 +1,22 @@
 .pageContainer {
     @apply flex flex-col items-center justify-center w-full px-5 pt-40;
     opacity: 0;
+
     & > * {
         margin-bottom: 4rem;
+    }
+
+    .contactsWrapper {
+        @apply max-w-7xl;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3rem;
+        @screen lg {
+            flex-direction: row;
+            align-items: center;
+        }
     }
 }
