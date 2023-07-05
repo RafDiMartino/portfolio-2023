@@ -48,12 +48,14 @@
         padding: .5rem 1rem;
         border-radius: 5px;
         font-family: var(--font-josefin-sans);
-        background-color: var(--color-white);
-        color: var(--color-primary);
-        transition: background-color .2s ease-in-out;
+        font-size: bold;
+        border: 2px solid var(--color-white);
+        color: var(--color-white);
+        transition: color .2s ease-in-out, border .2s ease-in-out;
         width: fit-content;
         &:hover {
-            background-color: var(--color-accent);
+            border: 2px solid var(--color-accent);
+            color: var(--color-accent);
         }
     }
 }

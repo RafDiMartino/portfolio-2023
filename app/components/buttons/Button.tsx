@@ -10,6 +10,6 @@ interface btnProps {
 
 export const Button = ({ link, btnText, target }: btnProps) => {
   return (
-    <Link className={classes.liveLink} target={target} href={link}>{btnText}</Link>
+    <Link className={`${classes.btn}`} target={target} href={link}>{btnText}</Link>
   )
 }

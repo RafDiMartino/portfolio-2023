@@ -23,15 +23,19 @@
         }
 
         button {
-            @apply font-josefin;
             text-transform: uppercase;
-            background-color: var(--color-accent);
-            transition: color .2s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: .5rem 1rem;
             border-radius: 5px;
-            cursor: pointer;
-
+            font-family: var(--font-josefin-sans);
+            font-size: bold;
+            border: 2px solid var(--color-accent);
+            color: var(--color-accent);
+            transition: color .2s ease-in-out, border .2s ease-in-out;
             &:hover {
+                border: 2px solid var(--color-white);
                 color: var(--color-white);
             }
         } 

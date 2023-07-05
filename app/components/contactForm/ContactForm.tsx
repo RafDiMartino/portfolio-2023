@@ -71,9 +71,9 @@ export const ContactForm: React.FC = () => {
     return (
         <section className={`${classes.contactFormContainer}`}>
             <form onSubmit={handleSubmit}>
-                <input name='name' value={formData.name} onChange={handleChange} type='text' placeholder='Enter your Name' aria-label='Name' />
-                <input name='email' value={formData.email} onChange={handleChange} type='text' placeholder='Enter your Email Address' aria-label='Email' />
-                <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Enter your message' cols={30} rows={5} aria-label='Message'></textarea>
+                <input name='name' value={formData.name} onChange={handleChange} type='text' placeholder='Enter your Name' aria-label='Name' required/>
+                <input name='email' value={formData.email} onChange={handleChange} type='text' placeholder='Enter your Email Address' aria-label='Email' required/>
+                <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Enter your message' cols={30} rows={5} aria-label='Message' required></textarea>
                 <button className='button' type='submit'>Submit</button>
             </form>
             <p className={!success ? classes.successMessageInactive : classes.successMessageActive}>Message submitted successfully!</p>
