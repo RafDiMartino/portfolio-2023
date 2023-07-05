@@ -26,7 +26,7 @@
             @apply font-josefin;
             text-transform: uppercase;
             background-color: var(--color-accent);
-            transition: background-color .2s ease-in-out;
+            transition: color .2s ease-in-out;
             padding: .5rem 1rem;
             border-radius: 5px;
             cursor: pointer;
