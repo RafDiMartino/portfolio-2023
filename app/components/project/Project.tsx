@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect} from 'react'
 import classes from "./Project.module.css"
 import Image from 'next/image';
 import Link from 'next/link';
@@ -18,11 +18,11 @@ interface projectData {
 export const Project = ({ src, alt, title, date, tags, repoLink, projectLink, description }: projectData) => {
 
     return (
-        <article className={classes.projectWrapper}>
+        <article className={`${classes.projectWrapper} project`}>
 
-            <Image priority={true} width={432} height={243} src={src} alt={alt} />
+            <Image priority={true} width={432} height={243} src={src} alt={alt}/>
             <div className={classes.contentWrapper}>
-                <h2>{title}</h2>
+                <h2 >{title}</h2>
                 <p className={classes.date}>{date} with: {tags.map((t, i) => { return <span key={i} className={classes.tag}> {t} </span> })}</p>
                 <p>{description}</p>
             </div>

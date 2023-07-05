@@ -28,7 +28,7 @@ export const Skills = () => {
           trigger: ".skillSectionTrigger",
           toggleActions: "restart none none none",
           markers: true,
-          scrub: true
+          // scrub: true
         },
         stagger: {
           each: 0.04,
@@ -40,8 +40,8 @@ export const Skills = () => {
   return (
     <>
       <section className={`${classes.skillsContainer} skillsSectionAnimation`}>
-        <h2 >SKILLS</h2>
-        <p className='skillSectionTrigger'>Technologies I have used in my web development career</p>
+        <h2 className='skillSectionTrigger'>SKILLS</h2>
+        <p >Technologies I have used in my web development career</p>
         <div className={`${classes.skillWrapper} `}>
           {skill.map((skill, i) => <Skill src={skill.src} alt={skill.alt} key={i} tooltip={skill.tooltip} />)}
         </div>
@@ -50,7 +50,6 @@ export const Skills = () => {
           <Button link="/contacts" btnText="Contacts" target="" />
         </div>
       </section>
-
     </>
   )
 }

@@ -5,6 +5,9 @@ import { Project } from '../project/Project';
 import data from "../../data/projects.json";
 import tagsData from "../../data/tags.json";
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
 
 interface Item {
   src: string;
@@ -47,12 +50,47 @@ const SearchComponent = () => {
       ".projectAnimation",
       {
         autoAlpha: 0,
+        y: 100,
       },
       {
         autoAlpha: 1,
-        duration: 1,
-        ease: "power2.in",
-        // delay: 1
+        y: 0 ,
+        // ease: "back.out(1.7)",
+        // ease: "power3.inOut",
+        // scrollTrigger: {
+        //   trigger: ".projectTrigger",
+        //   toggleActions: "restart none none none",
+        //   markers: true,
+        //   scrub: true,
+        //   start: "top center",
+        //   end: "bottom center",
+        // },
+        // stagger: {
+        //   each: 30,
+        // }
+      }
+    )
+    gsap.fromTo(
+      ".project",
+      {
+        autoAlpha: 0,
+        y: 100,
+      },
+      {
+        autoAlpha: 1,
+        y: 0 ,
+        ease: "back.out(1.7)",
+        // ease: "power3.inOut",
+        // ease: "steps(1)",
+        scrollTrigger: {
+          trigger: ".projectTrigger",
+          toggleActions: "restart none none none",
+          markers: true,
+          scrub: true,
+          start: "200px bottom",
+          end: "bottom bottom",
+        },
+        stagger: .4
       }
     )
   }, [])
@@ -145,10 +183,11 @@ const SearchComponent = () => {
 
   return (
     <section className={classes.searchSection}>
-      <form className="projectAnimation" onSubmit={handleSearchSubmit}>
-        <div className={classes.searchInputWrapper}>
+      <form className="headingAnimation" onSubmit={handleSearchSubmit}>
+        <div className={`${classes.searchInputWrapper} `}>
           <input
             aria-label='search input'
+            className=''
             type="text"
             placeholder="Search"
             value={searchQuery}
@@ -185,7 +224,7 @@ const SearchComponent = () => {
         <button type="submit">SEARCH</button>
       </form>
       {searchResults.length > 0 ? (
-        <div className={`${classes.projectsContainer} projectAnimation`}>
+        <div className={`${classes.projectsContainer} projectTrigger projectAnimation`}>
           {searchResults.map((project, i) => (
             <Project key={i} {...project} />
           ))}
