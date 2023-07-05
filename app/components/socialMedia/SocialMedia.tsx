@@ -4,7 +4,7 @@ import classes from "./SocialMedia.module.css"
 
 export const SocialMedia = () => {
     return (
-        <section className={`${classes.socialContainer}`}>
+        <div className={`${classes.socialContainer}`}>
             <div className={classes.socialWrapper}>
 
                 <Link href="https://www.linkedin.com/in/raffaele-di-martino/" target="_blank" aria-label='Linkedin profile link'>
@@ -26,7 +26,7 @@ export const SocialMedia = () => {
                 
             </div>
             <a className={classes.btnCV} href="/assets/cv/cv.pdf" target='_blank'>Download my CV</a>
-        </section>
+        </div>
 
     )
 }

@@ -15,10 +15,10 @@ export default function Page() {
     <main className={`${classes.pageContainer} fadeInAnimation`}>
 
       <ProjectHeading title={headings.contacts.title} standfirst={headings.contacts.standfirst} />
-      <div className={classes.contactsWrapper}>
+      <section className={classes.contactsWrapper}>
         <SocialMedia />
         <ContactForm />
-      </div>
+      </section>
     </main>
   )
 }
