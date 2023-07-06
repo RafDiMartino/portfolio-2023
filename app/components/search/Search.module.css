@@ -14,7 +14,8 @@
             border-radius: 5px 0 0 5px;
             border: 2px solid var(--color-secondary);
             background-color: var(--color-secondary);
-            
+            color: var(--color-white);
+
             &::placeholder {
                 transition: all .2s ease-in-out;
                 color: var(--color-white);
@@ -33,14 +34,15 @@
             top: 44px;
             border-radius: 5px;
             width: 100%;
-            background-color: var(--color-white);
+            background-color: var(--color-secondary);
+            color: var(--color-white);
             z-index: 10;
             max-height: 9rem;
             opacity: 1;
             transition: opacity 1s ease-out;
             
             &::-webkit-scrollbar-track {
-                background: var(--color-white);
+                background: var(--color-secondary);
             }
 
             &::-webkit-scrollbar-thumb {
