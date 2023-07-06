@@ -470,8 +470,8 @@
         "src": "/assets/projects-screenshot/react-portfolio.jpg",
         "title": "Portfolio website",
         "date": "Made in 2021",
-        "repoLink": "https://github.com/RafDiMartino/React-Portfolio/tree/master",
-        "projectLink": "https://rafdimartino.com/",
+        "repoLink": "https://github.com/RafDiMartino/React-Portfolio",
+        "projectLink": "https://rafdimartino.github.io/React-Portfolio/",
         "description": "Second version of my portfolio, made with React",
         "tags": [
             "React",
