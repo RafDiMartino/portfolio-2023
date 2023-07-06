@@ -5,16 +5,16 @@
     @apply font-josefin;
 
     & > * {
-        padding: 2rem 0;
+        padding-bottom: 4rem;
     }
 
     h2 {
-        font-size: 2rem;
+        @apply text-4xl font-bold;
         text-align: center;
     }
 
     p {
-        @apply font-playfair pt-0 pb-8;
+        @apply font-playfair pt-0 pb-20;
         text-align: center;
     }
 

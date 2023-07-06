@@ -2,14 +2,15 @@
     "projects": {
         "title": "PROJECTS",
         "standfirst": [
-            "Here are displayed all my web projects since I have started playing with web technologies.",
-            "Below you can search the by technogy to view only to the projects you are interested in."
+            "Here is a comprehensive list of my web projects, showcasing my journey and experimentation with web technologies, each one has contributed to my learning and growth.",
+            "I'm continuously exploring new ideas and honing my skills to create even more innovative and impactful projects in the future.",
+            "Below, you can search by technology or by section to view only the projects you are interested in."
         ]
     },
     "contacts": {
-        "title": "CONTACTS",
+        "title": "CONTACT ME",
         "standfirst": [
-            "You can contact me through the links below or send me a message through the form"
+            "You can reach out to me by either using the provided links or by sending me a message through the contact form."
         ]
     }
 }

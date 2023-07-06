@@ -21,7 +21,7 @@ export const Skills = () => {
       },
       {
         autoAlpha: 1,
-        y: 0 ,
+        y: 0,
         ease: "power2.inOut",
         scrollTrigger: {
           trigger: ".skillsSectionAnimation",
@@ -39,7 +39,7 @@ export const Skills = () => {
     <>
       <section className={`${classes.skillsContainer} skillsSectionAnimation`}>
         <h2 >SKILLS</h2>
-        <p className='skillSectionTrigger'>Technologies I have used in my web development career</p>
+        <p className='skillSectionTrigger'>Throughout my web development career, I have gained experience working with a diverse range of technologies and tools.</p>
         <div className={`${classes.skillWrapper} `}>
           {skill.map((skill, i) => <Skill src={skill.src} alt={skill.alt} key={i} tooltip={skill.tooltip} />)}
         </div>

@@ -54,14 +54,14 @@ export const Header = () => {
           <ul>
             <li onClick={toggleMenu}><Link href="/" className={currentRoute === "/" ? classes.active : ""}>HOME</Link></li>
             <li onClick={toggleMenu}><Link href="/projects" className={currentRoute === "/projects" ? classes.active : ""}>PROJECTS</Link></li>
-            <li onClick={toggleMenu}><Link href="/contacts" className={currentRoute === "/contacts" ? classes.active : ""}>CONTACTS</Link></li>
+            <li onClick={toggleMenu}><Link href="/contacts" className={currentRoute === "/contacts" ? classes.active : ""}>CONTACT</Link></li>
           </ul>
         </nav>
         <nav className={classes.desktopNavLinks}>
           <ul>
             <li><Link href="/" className={currentRoute === "/" ? classes.active : ""}>HOME</Link></li>
             <li><Link href="/projects" className={currentRoute === "/projects" ? classes.active : ""}>PROJECTS</Link></li>
-            <li><Link href="/contacts" className={currentRoute === "/contacts" ? classes.active : ""}>CONTACTS</Link></li>
+            <li><Link href="/contacts" className={currentRoute === "/contacts" ? classes.active : ""}>CONTACT</Link></li>
           </ul>
         </nav>
       </div>

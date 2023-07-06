@@ -71,12 +71,12 @@ export const ContactForm: React.FC = () => {
     return (
         <div className={`${classes.contactFormContainer}`}>
             <form onSubmit={handleSubmit}>
-                <input name='name' value={formData.name} onChange={handleChange} type='text' placeholder='Enter your Name' aria-label='Name' required/>
-                <input name='email' value={formData.email} onChange={handleChange} type='text' placeholder='Enter your Email Address' aria-label='Email' required/>
-                <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Enter your message' cols={30} rows={5} aria-label='Message' required></textarea>
-                <button className='button' type='submit'>Submit</button>
+                <input name='name' value={formData.name} onChange={handleChange} type='text' placeholder='Enter your full name' aria-label='Name' required/>
+                <input name='email' value={formData.email} onChange={handleChange} type='text' placeholder='Enter your email address' aria-label='Email' required/>
+                <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Type your message here' cols={30} rows={5} aria-label='Message' required></textarea>
+                <button className='button' type='submit'>Send message</button>
             </form>
-            <p className={!success ? classes.successMessageInactive : classes.successMessageActive}>Message submitted successfully!</p>
+            <p className={!success ? classes.successMessageInactive : classes.successMessageActive}>Message sent successfully. Thank you!</p>
         </div>
     )
 }
