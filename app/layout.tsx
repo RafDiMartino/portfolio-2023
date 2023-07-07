@@ -36,7 +36,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icon.png"></link>
+        <meta name="theme-color" content="#101518" />
+      </head>
       <body className={`${josefinSans.variable} ${playfairDisplay.variable} ${firaMono.variable} flex flex-col min-h-screen`}>
       <Header />
         {children}
