@@ -45,7 +45,7 @@ export const Skills = () => {
         </div>
         <div className={`${classes.btnWrapper} skillsSectionAnimation`}>
           <Button link="/projects" btnText="Projects" target="" />
-          <Button link="/contacts" btnText="Contacts" target="" />
+          <Button link="/contact" btnText="Contact" target="" />
         </div>
       </section>
 

@@ -78,8 +78,12 @@
             font-style: italic;
         }
 
-        .tag:not(:last-child)::after {
+        .tag:not(:nth-last-child(2))::after {
             content: ",";
+        }
+
+        .tag:last-child {
+            display: none;
         }
     }
 

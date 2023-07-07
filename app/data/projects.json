@@ -13,7 +13,8 @@
             "Typescript",
             "Three.js",
             "Blender",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -27,7 +28,8 @@
         "tags": [
             "React",
             "- edX Bootcamp",
-            "- Freelance Work"
+            "- Freelance Work",
+            "- All Projects"
         ]
     },
     {
@@ -40,7 +42,8 @@
         "description": "In Module 13 of the edX Bootcamp, my assignment was to create a Personal Portfolio Webpage using React.js and React-router-dom.",
         "tags": [
             "React",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -55,7 +58,8 @@
             "JavaScript",
             "Node.js",
             "Jest.js",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -69,7 +73,8 @@
         "tags": [
             "JavaScript",
             "Node.js",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -85,7 +90,8 @@
             "CSS",
             "Bootstrap",
             "jQuery",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -101,7 +107,8 @@
             "CSS",
             "Bootstrap",
             "jQuery",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -117,7 +124,8 @@
             "CSS",
             "Bootstrap",
             "jQuery",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -132,7 +140,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -147,7 +156,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -161,7 +171,8 @@
         "tags": [
             "HTML",
             "JavaScript",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -176,7 +187,8 @@
             "HTML",
             "CSS",
             "Bootstrap",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -190,7 +202,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -203,7 +216,8 @@
         "description": "In Module 1 of the edX Bootcamp, my assignment was to refactor the HTML code to meet modern 'Accessibility' standards.",
         "tags": [
             "HTML",
-            "- edX Bootcamp"
+            "- edX Bootcamp",
+            "- All Projects"
         ]
     },
     {
@@ -222,7 +236,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -238,7 +253,8 @@
             "CSS",
             "Javascript",
             "Vite",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -254,7 +270,8 @@
             "CSS",
             "Javascript",
             "Vite",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -273,7 +290,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -292,7 +310,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -311,7 +330,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -330,7 +350,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -349,7 +370,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -368,7 +390,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -387,7 +410,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -406,7 +430,8 @@
             "HTML",
             "CSS",
             "Javascript",
-            "- Employment Work"
+            "- Employment Work",
+            "- All Projects"
         ]
     },
     {
@@ -421,7 +446,8 @@
             "Next.js",
             "React",
             "Sass",
-            "- Freelance Work"
+            "- Freelance Work",
+            "- All Projects"
         ]
     },
     {
@@ -436,7 +462,8 @@
             "React",
             "Firebase",
             "Sass",
-            "- Freelance Work"
+            "- Freelance Work",
+            "- All Projects"
         ]
     },
     {
@@ -449,7 +476,8 @@
         "description": "I developed a Progressive Web App that utilizes Axios to fetch data from the openweathermap API. The app allows users to search for a city and displays the current weather information.",
         "tags": [
             "React",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -462,7 +490,8 @@
         "description": "developed a Progressive Web App as a practice project, focusing on CRUD operations. React Hooks and Material UI were utilized for efficient state management and visually appealing user interface design.",
         "tags": [
             "React",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -475,7 +504,8 @@
         "description": "I created the second version of my portfolio using React and React Router DOM, transforming it into a Progressive Web App (PWA). This updated version showcases my latest projects and skills while providing an engaging and responsive user experience across devices.",
         "tags": [
             "React",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -488,7 +518,8 @@
         "description": "I developed my own version of the Random Quote Machine Generator, utilizing React hooks like useState and useEffect. The application fetches data dynamically from my Gist repository, allowing me to practice retrieving and displaying random quotes.",
         "tags": [
             "React",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -501,7 +532,8 @@
         "description": "I created a React counter app as a practice project to sharpen my skills with React hooks, specifically useState and useEffect. This application allows for incrementing and decrementing a counter value and demonstrates the utilization of hooks for managing state and handling side effects.",
         "tags": [
             "React",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -516,7 +548,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -531,7 +564,8 @@
             "HTML",
             "CSS",
             "javascript",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -546,7 +580,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -561,7 +596,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -576,7 +612,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -591,7 +628,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -605,7 +643,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -619,7 +658,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -633,7 +673,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -647,7 +688,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     },
     {
@@ -661,7 +703,8 @@
         "tags": [
             "HTML",
             "CSS",
-            "- Personal Project"
+            "- Personal Project",
+            "- All Projects"
         ]
     }
 ]
