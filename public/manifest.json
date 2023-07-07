@@ -4,9 +4,10 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Your App Name",
-    "short_name": "your_app_name",
-    "description": "A PWA boilerplate with Next Js TypeScript",
+    "name": "Portfolio",
+    "short_name": "Portfolio",
+    "description": "Raf Di MArtino | Portfolio",
+    "offline_enabled": true,
     "icons": [
       {
         "src": "/icon-192x192.png",
