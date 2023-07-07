@@ -6,7 +6,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 0 10rem 0;
+        margin: 3rem 0 10rem 0;
 
         input[type=text] {
             @apply font-playfair;
@@ -92,5 +92,11 @@
         justify-content: center;
         gap: 1.5rem;
         margin: 3rem 0;
+    }
+
+    .noResults {
+        @apply text-white font-playfair;
+        font-size: 1.2rem;
+        padding-bottom: 5rem;
     }
 }

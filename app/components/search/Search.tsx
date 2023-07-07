@@ -191,7 +191,7 @@ const SearchComponent = () => {
           ))}
         </div>
       ) : (
-        <p>No results found.</p>
+        <p className={classes.noResults}>Oops! No results found!</p>
       )}
     </section>
   );
