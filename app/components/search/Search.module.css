@@ -53,6 +53,7 @@
             li {
                 @apply font-playfair;
                 padding: .3rem 1rem;
+                cursor: pointer;
                 height: auto;
                 &:focus {
                     outline: none;
