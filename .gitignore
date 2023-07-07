@@ -33,3 +33,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pwa-build
+public/sw.js
+.gitignore
+public/sw.js.map
+.gitignore
+public/workbox-8f0e986c.js
+.gitignore
+public/workbox-8f0e986c.js.map
