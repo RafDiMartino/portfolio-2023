@@ -34,11 +34,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# pwa-build
-public/sw.js
-.gitignore
-public/sw.js.map
-.gitignore
-public/workbox-8f0e986c.js
-.gitignore
-public/workbox-8f0e986c.js.map
+# next-pwa
+/public/sw.js
+/public/workbox-*.js
+/public/worker-*.js
+/public/fallback-*.js
+/public/precache.*.*.js.map
+/public/sw.js.map
+/public/workbox-*.js.map
+/public/worker-*.js.map
+/public/fallback-*.js
