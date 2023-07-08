@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect } from 'react'
+import React, { useLayoutEffect } from 'react'
 import classes from "./Hero.module.css"
 import Link from 'next/link'
 import gsap from 'gsap'
@@ -7,34 +7,39 @@ import gsap from 'gsap'
 
 export const Hero = () => {
 
+    const heroSection = React.useRef<HTMLElement>(null);
+
     const name = "RAF"
     const surname = "DI MARTINO"
 
 
-    useEffect(() => {
-        let heroReveal = gsap.timeline()
-        heroReveal.to(".nameAnimation",
-            {
-                autoAlpha: 1,
-                delay: 0,
-                ease: "power3.inOut",
-                stagger: {
-                    each: 0.04,
+    useLayoutEffect(() => {
+        let ctx = gsap.context(() => {
+            let heroReveal = gsap.timeline()
+            heroReveal.to(".nameAnimation",
+                {
+                    autoAlpha: 1,
+                    delay: 0,
+                    ease: "power3.inOut",
+                    stagger: {
+                        each: 0.04,
+                    }
                 }
-            }
-        )
-        heroReveal.to(
-            ".heroAnimation",
-            {
-                autoAlpha: 1,
-                duration: 1,
-                ease: "power2.inOut",
-            }
-        )
+            )
+            heroReveal.to(
+                ".heroAnimation",
+                {
+                    autoAlpha: 1,
+                    duration: 1,
+                    ease: "power2.inOut",
+                }
+            )
+        }, heroSection)
+        return () => ctx.revert();
     }, [])
 
     return (
-        <section className={`${classes.heroSection}`}>
+        <section ref={heroSection} className={`${classes.heroSection}`}>
             <h1 className={classes.nameWrapper}>
                 <div className="xs:pr-5 md:pr-10 text-center">
                     {
