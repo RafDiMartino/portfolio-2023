@@ -10,7 +10,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export const Skills = () => {
-  const skillsSection = React.useRef<HTMLElement>(null);
+  const skillsSection = useRef<HTMLElement>(null);
 
   useLayoutEffect(() => {
     

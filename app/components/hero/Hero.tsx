@@ -1,5 +1,5 @@
 "use client"
-import React, { useLayoutEffect } from 'react'
+import React, { useLayoutEffect, useRef } from 'react'
 import classes from "./Hero.module.css"
 import Link from 'next/link'
 import gsap from 'gsap'
@@ -7,7 +7,7 @@ import gsap from 'gsap'
 
 export const Hero = () => {
 
-    const heroSection = React.useRef<HTMLElement>(null);
+    const heroSection = useRef<HTMLElement>(null);
 
     const name = "RAF"
     const surname = "DI MARTINO"
