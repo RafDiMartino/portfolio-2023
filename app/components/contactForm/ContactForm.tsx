@@ -1,6 +1,7 @@
 "use client"
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import React, { useState, ChangeEvent, FormEvent, useRef, useLayoutEffect } from 'react';
 import classes from "./ContactForm.module.css"
+import gsap from 'gsap'
 
 interface FormData {
     name: string;
@@ -10,6 +11,29 @@ interface FormData {
 }
 
 export const ContactForm: React.FC = () => {
+
+    const formRef = useRef<HTMLDivElement>(null);
+
+    useLayoutEffect(() => {
+
+        let ctx = gsap.context(() => {
+            gsap.fromTo(
+                ".fadeInAnimation",
+                {
+                    autoAlpha: 0,
+                    x: 100
+                },
+                {
+                    autoAlpha: 1,
+                    x: 0,
+                    duration: 1,
+                    ease: "power2.inOut",
+                }
+            )
+        }, formRef)
+        return () => ctx.revert();
+    }, [])
+
     // State to handle the success message
     const [success, setSuccess] = useState(false);
 
@@ -69,14 +93,16 @@ export const ContactForm: React.FC = () => {
     }
 
     return (
-        <div className={`${classes.contactFormContainer}`}>
-            <form onSubmit={handleSubmit}>
-                <input name='name' value={formData.name} onChange={handleChange} type='text' placeholder='Enter your full name' aria-label='Name' required/>
-                <input name='email' value={formData.email} onChange={handleChange} type='text' placeholder='Enter your email address' aria-label='Email' required/>
-                <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Type your message here' cols={30} rows={5} aria-label='Message' required></textarea>
-                <button className='button' type='submit'>Send message</button>
-            </form>
-            <p className={!success ? classes.successMessageInactive : classes.successMessageActive}>Message sent successfully. Thank you!</p>
+        <div ref={formRef} className={`${classes.contactFormContainer}`}>
+            <div className={`${classes.contactFormWrapper} fadeInAnimation`}>
+                <form onSubmit={handleSubmit}>
+                    <input name='name' value={formData.name} onChange={handleChange} type='text' placeholder='Enter your full name' aria-label='Name' required />
+                    <input name='email' value={formData.email} onChange={handleChange} type='text' placeholder='Enter your email address' aria-label='Email' required />
+                    <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Type your message here' cols={30} rows={5} aria-label='Message' required></textarea>
+                    <button className='button' type='submit'>Send message</button>
+                </form>
+                <p className={!success ? classes.successMessageInactive : classes.successMessageActive}>Message sent successfully. Thank you!</p>
+            </div>
         </div>
     )
 }

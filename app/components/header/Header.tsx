@@ -1,17 +1,17 @@
 'use client';
 
-import React, { useLayoutEffect } from "react"
+import React, { useState, useLayoutEffect, useRef } from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import classes from "./Header.module.css"
 import gsap from 'gsap'
 
 export const Header = () => {
-  const headerRef = React.useRef<HTMLElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
 
   const currentRoute = usePathname();
 
-  const [openMenu, setOpenMenu] = React.useState(false)
+  const [openMenu, setOpenMenu] = useState(false)
 
   let toggleMenu = () => {
     setOpenMenu(!openMenu)

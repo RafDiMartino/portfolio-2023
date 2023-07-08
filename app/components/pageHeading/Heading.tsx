@@ -10,7 +10,7 @@ interface headings {
 
 export const ProjectHeading = ({ title, standfirst }: headings) => {
   
-  const headingSection = React.useRef<HTMLElement>(null);
+  const headingSection = useRef<HTMLElement>(null);
   
   useLayoutEffect(() => {
 

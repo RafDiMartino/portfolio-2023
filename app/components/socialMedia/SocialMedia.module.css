@@ -1,61 +1,69 @@
 .socialContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    & > * {
-        margin: 0 0 5rem 0;
-    }
-
-    .socialWrapper {
-        width: 100%;
+    .socialAnimationWrapper {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        transition: all 1s ease-in-out;
-        flex-wrap: wrap;
-        gap: 3rem;
+        opacity: 0;
 
-        a {
-            width: 40px;
-            @screen md {
-                width: 50px
+        & > * {
+            margin: 0 0 5rem 0;
+        }
+
+        .socialWrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 1s ease-in-out;
+            flex-wrap: wrap;
+            gap: 3rem;
+
+
+            a {
+                width: 40px;
+
+                @screen md {
+                    width: 50px
+                }
+
+                &:hover svg {
+                    transition: fill all 1s ease-in-out;
+
+                    path {
+                        transition: fill .2s ease;
+                        fill: var(--color-white);
+
+                    }
+
+                    &:hover path {
+                        fill: var(--color-accent);
+                    }
+
+                }
             }
+        }
 
-            &:hover svg {
-                transition: fill all 1s ease-in-out;
+        .btnCV {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: .5rem 1rem;
+            border-radius: 5px;
+            font-family: var(--font-josefin-sans);
+            font-size: bold;
+            border: 2px solid var(--color-white);
+            color: var(--color-white);
+            transition: color .2s ease-in-out, border .2s ease-in-out;
+            width: fit-content;
 
-                path {
-                    transition: fill .2s ease;
-                    fill: var(--color-white);
-
-                }
-
-                &:hover path {
-                    fill: var(--color-accent);
-                }
-
+            &:hover {
+                border: 2px solid var(--color-accent);
+                color: var(--color-accent);
             }
         }
     }
 
-    .btnCV {
-        text-transform: uppercase;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: .5rem 1rem;
-        border-radius: 5px;
-        font-family: var(--font-josefin-sans);
-        font-size: bold;
-        border: 2px solid var(--color-white);
-        color: var(--color-white);
-        transition: color .2s ease-in-out, border .2s ease-in-out;
-        width: fit-content;
-        &:hover {
-            border: 2px solid var(--color-accent);
-            color: var(--color-accent);
-        }
-    }
 }
