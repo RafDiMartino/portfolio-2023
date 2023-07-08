@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className={`${classes.pageContainer} fadeInAnimation`}>
+    <main className={`${classes.pageContainer}`}>
 
       <ProjectHeading title={headings.contacts.title} standfirst={headings.contacts.standfirst} />
       <section className={classes.contactsWrapper}>

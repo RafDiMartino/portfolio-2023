@@ -1,0 +1,22 @@
+.headingContainer {
+    .headingWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+
+        .pageHeader {
+            @apply text-white text-4xl font-josefin mb-16;
+            font-weight: bold;
+        }
+        .standfirst {
+        
+            p {
+                @apply font-playfair text-center;
+                color: var(--color-white);
+            }
+        }
+    }
+
+}
