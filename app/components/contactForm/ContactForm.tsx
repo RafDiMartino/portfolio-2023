@@ -21,11 +21,11 @@ export const ContactForm: React.FC = () => {
                 ".fadeInAnimation",
                 {
                     autoAlpha: 0,
-                    x: 100
+                    y: 100
                 },
                 {
                     autoAlpha: 1,
-                    x: 0,
+                    y: 0,
                     duration: 1,
                     ease: "power2.inOut",
                 }
