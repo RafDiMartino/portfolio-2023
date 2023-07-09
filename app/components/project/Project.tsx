@@ -18,7 +18,7 @@ interface projectData {
 export const Project = ({ src, alt, title, date, tags, repoLink, projectLink, description }: projectData) => {
 
     return (
-        <article className={classes.projectWrapper}>
+        <article className={`${classes.projectWrapper}`}>
 
             <Image priority={true} width={432} height={243} src={src} alt={alt} />
             <div className={classes.contentWrapper}>
