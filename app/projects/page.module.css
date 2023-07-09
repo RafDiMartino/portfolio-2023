@@ -1,6 +1,5 @@
 .pageContainer {
     @apply flex flex-col items-center justify-center w-full px-5 pt-40;
-    opacity: 0;
     
     & > * {
         margin-bottom: 4rem;
