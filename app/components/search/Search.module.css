@@ -1,15 +1,15 @@
 .searchSection {
-    @apply w-full flex flex-col items-center justify-center max-w-screen-2xl;
 
     .searchSectionWrapper {
-        opacity: 0;
-
+        @apply w-full flex flex-col items-center justify-center max-w-screen-2xl;
+        
         form {
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 3rem 0 10rem 0;
+            opacity: 0;
 
             input[type=text] {
                 @apply font-playfair;
@@ -99,6 +99,7 @@
         justify-content: center;
         gap: 1.5rem;
         margin: 3rem 0;
+        opacity: 0;
     }
 
     .noResults {

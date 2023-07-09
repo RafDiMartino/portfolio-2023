@@ -5,6 +5,9 @@ import { Project } from '../project/Project';
 import data from "../../data/projects.json";
 import tagsData from "../../data/tags.json";
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
 
 interface Item {
   src: string;
@@ -47,7 +50,20 @@ const SearchComponent = () => {
 
     let ctx = gsap.context(() => {
       gsap.fromTo(
-        ".fadeInAnimation",
+        ".inputAnimation",
+        {
+          autoAlpha: 0,
+          x: -100
+        },
+        {
+          autoAlpha: 1,
+          x: 0,
+          duration: 1,
+          ease: "power2.inOut",
+        }
+      )
+      gsap.fromTo(
+        ".projectAnimation",
         {
           autoAlpha: 0,
           y: 100
@@ -150,9 +166,9 @@ const SearchComponent = () => {
   };
 
   return (
-    <section ref={projectSectionRef} className={classes.searchSection}>
-      <div className={`${classes.searchSectionWrapper} fadeInAnimation`}>
-        <form onSubmit={handleSearchSubmit}>
+    <section ref={projectSectionRef} className={`${classes.searchSection}`}>
+      <div className={`${classes.searchSectionWrapper} `}>
+        <form onSubmit={handleSearchSubmit} className='inputAnimation'>
           <div className={classes.searchInputWrapper}>
             <input
               aria-label='search input'
@@ -192,7 +208,7 @@ const SearchComponent = () => {
           <button type="submit">SEARCH</button>
         </form>
         {searchResults.length > 0 ? (
-          <div className={`${classes.projectsContainer}`}>
+          <div className={`${classes.projectsContainer} projectAnimation`}>
             {searchResults.map((project, i) => (
               <Project key={i} {...project} />
             ))}
