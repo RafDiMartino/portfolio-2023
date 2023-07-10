@@ -62,6 +62,13 @@ const SearchComponent = () => {
           ease: "power2.inOut",
         }
       )
+    }, projectSectionRef)
+    return () => ctx.revert();
+  }, [])
+
+  useLayoutEffect(() => {
+
+    let ctx = gsap.context(() => {
       gsap.fromTo(
         ".projectAnimation",
         {
@@ -77,7 +84,7 @@ const SearchComponent = () => {
       )
     }, projectSectionRef)
     return () => ctx.revert();
-  }, [])
+  }, [searchResults])
 
   const handleClickOutside = (event: MouseEvent) => {
     if (inputRef.current && !inputRef.current.contains(event.target as Node)) {
