@@ -1,5 +1,5 @@
 .headerContainer {
-  @apply sticky top-0 z-20 flex justify-center items-center bg-primary text-accent w-full text-center font-josefin;
+  @apply sticky top-0 z-20 flex justify-center items-center bg-primary text-accent w-full text-center font-header;
   
   .headerWrapper {
     display: flex;

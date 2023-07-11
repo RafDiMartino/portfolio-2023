@@ -1,5 +1,5 @@
 .footer {
-    @apply bg-primary z-10 text-accent w-full mt-auto text-center font-josefin;
+    @apply bg-primary z-10 text-accent w-full mt-auto text-center font-header;
     font-size: 0.8rem;
     padding: 2.5rem;
     border-top: 1px solid var(--color-accent);

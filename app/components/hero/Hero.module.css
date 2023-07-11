@@ -6,7 +6,7 @@
     width: 100%;
     min-height: calc(100vh - 91px);
     background-color: var(--color-primary);
-    @apply font-josefin;
+    @apply font-header;
 
     @screen md {
         align-items: center;
@@ -37,25 +37,13 @@
     }
 
     .standfirst {
-        @apply font-playfair py-7;
-        font-size: 1rem;
+        @apply font-body py-7;
+        font-size: 1.3rem;
         text-align: center;
         opacity: 0;
-        @screen md {
-            font-size: 1.2rem;
-        }
         @screen lg {
             font-size: 1.5rem;
             @apply py-0 pb-7;
-        }
-    }
-
-    .introduction {
-        @apply font-playfair max-w-screen-lg py-7;
-        opacity: 0;
-
-        @screen md {
-            text-align: center;
         }
     }
 

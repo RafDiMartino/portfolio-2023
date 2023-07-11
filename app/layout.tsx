@@ -1,24 +1,19 @@
 import './globals.css'
-import { Josefin_Sans, Playfair_Display, Fira_Mono } from 'next/font/google'
+import { Josefin_Sans, Playfair_Display, Fira_Mono, Montserrat, Cormorant_Garamond, Lato } from 'next/font/google'
 import { Header } from "./components/header/Header"
 import { Footer } from './components/footer/Footer'
 
 // const inter = Inter({ subsets: ['latin'] })
 
-export const josefinSans = Josefin_Sans({
+export const header = Josefin_Sans({
   subsets: ['latin'],
-  variable: '--font-josefin-sans'
+  variable: '--font-header'
 })
 
-export const playfairDisplay = Playfair_Display({
+export const body = Lato({
+  weight: ["400", "300", "700"],
   subsets: ['latin'],
-  variable: '--font-playfair-display'
-})
-
-export const firaMono = Fira_Mono({
-  weight: ["400", "500", "700"],
-  subsets: ['latin'],
-  variable: '--font-fira-mono'
+  variable: '--font-body'
 })
 
 export const metadata = {
@@ -41,7 +36,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icon-192x192.png"></link>
         <meta name="theme-color" content="#101518" />
       </head>
-      <body className={`${josefinSans.variable} ${playfairDisplay.variable} ${firaMono.variable} flex flex-col min-h-screen`}>
+      <body className={`${header.variable} ${body.variable} flex flex-col min-h-screen`}>
       <Header />
         {children}
       <Footer />
