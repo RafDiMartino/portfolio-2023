@@ -17,7 +17,7 @@
             align-items: center;
     
             & > * {
-                @apply font-playfair;
+                @apply font-body;
                 width: 100%;
                 padding: .5rem;
                 border: none;
@@ -32,7 +32,7 @@
                 align-items: center;
                 padding: .5rem 1rem;
                 border-radius: 5px;
-                font-family: var(--font-josefin-sans);
+                font-family: var(--font-header);
                 font-size: bold;
                 border: 2px solid var(--color-accent);
                 color: var(--color-accent);
@@ -67,7 +67,7 @@
         }
     
         .successMessageInactive {
-            @apply font-playfair;
+            @apply font-body;
             opacity: 0;
             font-size: 1.5rem;
             text-align: center;
@@ -76,7 +76,7 @@
         }
     
         .successMessageActive {
-            @apply font-playfair;
+            @apply font-body;
             opacity: 1;
             font-size: 1.5rem;
             text-align: center;

@@ -62,14 +62,14 @@
         }
 
         h2 {
-            font-family: var(--font-josefin-sans);
+            font-family: var(--font-header);
             text-transform: uppercase;
             font-weight: bold;
             font-size: 1.2rem;
             transition: color .2s ease-in-out;
         }
         p {
-            font-family: var(--font-playfair-display);
+            font-family: var(--font-body);
         }
 
         .date {

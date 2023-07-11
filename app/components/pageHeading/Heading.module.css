@@ -7,14 +7,15 @@
         opacity: 0;
 
         .pageHeader {
-            @apply text-white text-4xl font-josefin mb-16;
+            @apply text-white text-4xl font-header mb-16;
             font-weight: bold;
         }
         .standfirst {
         
             p {
-                @apply font-playfair text-center;
+                @apply font-body text-center;
                 color: var(--color-white);
+                font-size: 1.2rem;
             }
         }
     }
