@@ -35,10 +35,6 @@
     &:hover h2 {
         color: var(--color-accent);
     }
-
-        /*&:hover img {
-        max-width: 95%;
-    }*/
     
     img {
         aspect-ratio: 16/9;
@@ -55,10 +51,13 @@
         flex-grow: 1;
         padding: 0 1.5rem;
         width: 100%;
-        text-align: center;
+        
+        @screen sm {
+            text-align: center;
+        }
 
         & > * {
-            padding-bottom: 1rem;
+            padding-bottom: 1.7rem;
         }
 
         h2 {
