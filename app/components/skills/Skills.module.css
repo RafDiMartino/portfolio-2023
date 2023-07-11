@@ -2,7 +2,7 @@
     color: var(--color-white);
     /* min-height: calc(100vh - 91px);*/
     
-    @apply font-josefin;
+    @apply font-header;
 
     .skillsWrapper {
         opacity: 0;
@@ -18,8 +18,9 @@
         }
 
         p {
-            @apply font-playfair pt-0 pb-20;
+            @apply font-body pt-0 pb-20;
             text-align: center;
+            font-size: 1.2rem;
             opacity: 0;
         }
 

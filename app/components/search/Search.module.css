@@ -12,7 +12,7 @@
             opacity: 0;
 
             input[type=text] {
-                @apply font-playfair;
+                @apply font-body;
                 padding: .5rem 1rem;
                 border-radius: 5px 0 0 5px;
                 border: 2px solid var(--color-secondary);
@@ -54,7 +54,7 @@
                 }
 
                 li {
-                    @apply font-playfair;
+                    @apply font-body;
                     padding: .3rem 1rem;
                     cursor: pointer;
                     height: auto;
@@ -77,7 +77,7 @@
                 align-items: center;
                 padding: .5rem 1rem;
                 border-radius: 0 5px 5px 0;
-                font-family: var(--font-josefin-sans);
+                font-family: var(--font-header);
                 font-size: bold;
                 border: 2px solid var(--color-accent);
                 color: var(--color-accent);
@@ -103,7 +103,7 @@
     }
 
     .noResults {
-        @apply text-white font-playfair;
+        @apply text-white font-body;
         font-size: 1.2rem;
         padding-bottom: 5rem;
     }

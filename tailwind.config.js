@@ -14,9 +14,8 @@ module.exports = {
         "accent": "var(--color-accent)",
       },
       fontFamily: {
-        josefin: ['var(--font-josefin-sans)'],
-        playfair: ['var(--font-playfair-display)'],
-        fira: ["var(--font-fira-mono)"]
+        header: ['var(--font-header)'],
+        body: ["var(--font-body)"]
       },
       screens: {
         'xs': '465px',
