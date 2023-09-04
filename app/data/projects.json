@@ -1,11 +1,33 @@
 [
     {
+        "alt": "App screenshot",
+        "src": "/assets/projects-screenshot/apod-app.jpg",
+        "title": "APOD",
+        "date": "Made in 2023",
+        "repoLink": "",
+        "projectLink": "#",
+        "microsoftStore": "#",
+        "playStore": "#",
+        "description": "COMING SOON!",
+        "tags": [
+            "Next.js",
+            "React",
+            "Typescript",
+            "Axios",
+            "Tailwind",
+            "- Personal Project",
+            "- All Projects"
+        ]
+    },
+    {
         "alt": "Lament configuration screenshot",
         "src": "/assets/projects-screenshot/lament-config.jpg",
         "title": "Lament configuration",
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/lament-configuration",
         "projectLink": "https://lament-configuration.vercel.app/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "The project involves the iconic LeMarchand Configuration puzzle box from the cult movie Hellraiser. It is developed using Three.js, Typescript, and Next.js. Additionally, I have created the 3D model using Blender.",
         "tags": [
             "Next.js",
@@ -24,7 +46,9 @@
         "date": "Made in 2023",
         "repoLink": "",
         "projectLink": "https://react.mettle.capital/",
-        "description": "In Module 14/15 of the edX Bootcamp, our group worked on an app that automatically displays data and visualizations using Mettle Capital's API. The project aimed to transform the company's manual entity report generation process into an automated one. As a result of my performance in the bootcamp, I was hired by Mettle Capital as a freelance developer to complete the website.",
+        "microsoftStore": "",
+        "playStore": "",
+        "description": "In Module 14/15 of the edX Bootcamp, our group worked on an app that automatically displays data and visualizations using Mettle Capital's API. The project aimed to transform the company's manual entity report generation process into an automated one. As a result of my performance in the bootcamp, I was hired by Mettle Capital as a freelance developer to complete the website, and I am currently still collaborating with them.",
         "tags": [
             "React",
             "- edX Bootcamp",
@@ -39,6 +63,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-13-challenge-react-portfolio",
         "projectLink": "https://rafdimartino.github.io/module-13-challenge-react-portfolio/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 13 of the edX Bootcamp, my assignment was to create a Personal Portfolio Webpage using React.js and React-router-dom.",
         "tags": [
             "React",
@@ -53,6 +79,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-12-challenge-team-profile-generator",
         "projectLink": "",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 12 of the edX Bootcamp, my assignment was to create a command-line application that generates a webpage from user input using Inquirer.js. The application is built in JavaScript and Node.js, utilising ES6 syntax and Jest.js for unit testing.",
         "tags": [
             "JavaScript",
@@ -69,6 +97,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-11-challenge-professional-readme-generator",
         "projectLink": "",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 11 of the edX Bootcamp, my assignment was to create a terminal application that generates a README.md file from user input using Inquirer.js. The application is built in JavaScript and Node.js, utilising ES6 syntax.",
         "tags": [
             "JavaScript",
@@ -84,6 +114,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/project-wikitube",
         "projectLink": "https://rafdimartino.github.io/project-wikitube/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 9/10 of the edX Bootcamp, our group project involved designing and building a web app using two public APIs. We utilized HTML, Bootstrap, and jQuery for the development.",
         "tags": [
             "HTML",
@@ -101,6 +133,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-8-challenge-weather-dashboard",
         "projectLink": "https://rafdimartino.github.io/module-8-challenge-weather-dashboard/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 8 of the edX Bootcamp, my assignment was to build a weather dashboard using the Open Weather API and implement localStorage to make searches persistent. The project was developed using HTML, Bootstrap, and jQuery.",
         "tags": [
             "HTML",
@@ -118,6 +152,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-7-challenge-daily-planner-app",
         "projectLink": "https://rafdimartino.github.io/module-7-challenge-daily-planner-app/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 7 of the edX Bootcamp, my assignment was to create a simple calendar application that allows users to save events. The project was developed using HTML, Bootstrap, and jQuery.",
         "tags": [
             "HTML",
@@ -135,6 +171,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-6-challenge-code-quiz",
         "projectLink": "https://rafdimartino.github.io/module-6-challenge-code-quiz/index.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 6 of the edX Bootcamp, my assignment was to create a Coding Quiz Game about JavaScript. The game runs in the browser and features dynamically updated HTML and CSS, all powered by JavaScript.",
         "tags": [
             "HTML",
@@ -151,6 +189,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-5-challenge-password-generator",
         "projectLink": "https://rafdimartino.github.io/module-5-challenge-password-generator/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 5 of the edX Bootcamp, my assignment was to create a Password Generator that generates a password when the button 'Generate Password' is clicked. The project was developed using HTML, CSS, and JavaScript.",
         "tags": [
             "HTML",
@@ -167,6 +207,8 @@
         "date": "Made in 2023",
         "repoLink": "https://github.com/RafDiMartino/module-4-challenge-console-finances",
         "projectLink": "https://rafdimartino.github.io/module-4-challenge-console-finances/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 4 of the edX Bootcamp, my assignment was to create a financial analysis tool by writing JavaScript code that analyzes the records and calculates profit/losses.",
         "tags": [
             "HTML",
@@ -182,6 +224,8 @@
         "date": "Made in 2022",
         "repoLink": "https://github.com/RafDiMartino/module-3-challenge-bootstrap-portfolio",
         "projectLink": "https://rafdimartino.github.io/module-3-challenge-bootstrap-portfolio/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 3 of the edX Bootcamp, my assignment was to create a responsive portfolio webpage using Bootstrap. The project involved implementing various Bootstrap components such as Bootstrap Navigation, Bootstrap Jumbotron, Bootstrap Grid, and Bootstrap Cards.",
         "tags": [
             "HTML",
@@ -198,6 +242,8 @@
         "date": "Made in 2022",
         "repoLink": "https://github.com/RafDiMartino/module-2-challenge",
         "projectLink": "https://rafdimartino.github.io/module-2-challenge/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 2 of the edX Bootcamp, my assignment was to create a Personal Portfolio Webpage. The task involved practicing CSS flexbox, CSS grid, CSS variables, and CSS media queries.",
         "tags": [
             "HTML",
@@ -213,6 +259,8 @@
         "date": "Made in 2022",
         "repoLink": "https://github.com/RafDiMartino/module-1-challenge",
         "projectLink": "https://rafdimartino.github.io/module-1-challenge/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In Module 1 of the edX Bootcamp, my assignment was to refactor the HTML code to meet modern 'Accessibility' standards.",
         "tags": [
             "HTML",
@@ -227,6 +275,8 @@
         "date": "Made in 2023",
         "repoLink": "",
         "projectLink": "https://wardour.co.uk/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "In the Wardour website project, we revamped the company website by updating it to the new version of the CMS. We refactored templates and components, and replaced all the old jQuery code with vanilla JavaScript. This work was carried out during my employment at Wardour Communications, using the ExpressionEngine CMS.",
         "tags": [
             "ExpressionEngine",
@@ -247,6 +297,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://group.legalandgeneral.com/en/inclusive-capitalism/investing-for-good/levelling-up-the-uk",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I developed a web application for Legal & General while working at Wardour Communications. The project was implemented using JavaScript.",
         "tags": [
             "HTML",
@@ -264,6 +316,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://renewi.wardourdigital.co.uk/game/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I worked on a game project for Renewi, where I was involved in the initial research of the Phaser 3 game library, implementing transitions between levels, and developing the scoring point system. This project was completed during my tenure at Wardour Communications using JavaScript.",
         "tags": [
             "HTML",
@@ -281,6 +335,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://www.netzeroinvestor.net/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "As a part of my role at Wardour Communications, I was responsible for developing a website for Net Zero Investor. This involved utilizing the ExpressionEngine CMS to create a professional and user-friendly online platform that aligns with the client's goals and objectives.",
         "tags": [
             "ExpressionEngine",
@@ -301,6 +357,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://policy.ncl.ac.uk/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "While working at Wardour Communications, I was involved in the development of a website for Policy Newcastle, a division of Newcastle University. Utilising HubSpot CMS, I developed and implemented all the modules and templates for the website.",
         "tags": [
             "HubSpot",
@@ -321,6 +379,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://www.ncl.ac.uk/numed/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "While working at Wardour Communications, I had the opportunity to contribute to the development of a website for NUMed Malaysia, a division of Newcastle University. Utilising HubSpot CMS, I played a key role in developing and implementing various modules and templates for the website.",
         "tags": [
             "HubSpot",
@@ -341,6 +401,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://www.ncl.ac.uk/landscape/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "During my time at Wardour Communications, I actively participated in the development of a website for the Centre for Landscape at Newcastle University. Utilizing the HubSpot CMS, I played a significant role in developing and implementing diverse modules and templates to enhance the website's functionality and design.",
         "tags": [
             "HubSpot",
@@ -361,6 +423,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://www.ncl.ac.uk/ageing-inequalities/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "While at Wardour Communications, I developed and implemented modules and templates for the website of Newcastle University's Centre for Ageing and Inequalities using the HubSpot CMS.",
         "tags": [
             "HubSpot",
@@ -381,6 +445,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://www.ncl.ac.uk/rare-diseases/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "While at Wardour Communications, I developed and implemented modules and templates for the website of Newcastle University's Centre for Rare Disease using the HubSpot CMS.",
         "tags": [
             "HubSpot",
@@ -401,6 +467,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://www.ncl.ac.uk/environmental-climate-resilience/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "While at Wardour Communications, I developed and implemented modules and templates for the website of Newcastle University's Centre for Climate and Environmental Resilience using the HubSpot CMS.",
         "tags": [
             "HubSpot",
@@ -421,6 +489,8 @@
         "date": "Made in 2022",
         "repoLink": "",
         "projectLink": "https://supportus.ncl.ac.uk/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "While employed at Wardour Communications, I played a key role in developing and implementing modules and templates for the Supportus website at Newcastle University. Leveraging the HubSpot CMS, I contributed to creating an engaging online platform that effectively communicated the university's support services.",
         "tags": [
             "HubSpot",
@@ -441,6 +511,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/duplex-val-thorens-nextjs",
         "projectLink": "https://www.duplexvalthorens.com/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created a website for a private apartment rental business located in a stunning ski resort in the French Alps. The website is built using Next.js and designed to prioritise SEO and internationalisation.",
         "tags": [
             "Next.js",
@@ -457,6 +529,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/creative-lab/tree/master",
         "projectLink": "https://laboratoriocreativo.net/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I developed a website as a freelance for a talented artisan specializing in customizing shoes, candles, and more. The website was built using React and Firebase technology.",
         "tags": [
             "React",
@@ -473,6 +547,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Weather-App/tree/master",
         "projectLink": "https://rafdimartino.github.io/Weather-App/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I developed a Progressive Web App that utilizes Axios to fetch data from the openweathermap API. The app allows users to search for a city and displays the current weather information.",
         "tags": [
             "React",
@@ -487,6 +563,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/task-manager/tree/master",
         "projectLink": "https://rafdimartino.github.io/task-manager/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "developed a Progressive Web App as a practice project, focusing on CRUD operations. React Hooks and Material UI were utilized for efficient state management and visually appealing user interface design.",
         "tags": [
             "React",
@@ -501,6 +579,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/React-Portfolio",
         "projectLink": "https://rafdimartino.github.io/React-Portfolio/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created the second version of my portfolio using React and React Router DOM, transforming it into a Progressive Web App (PWA). This updated version showcases my latest projects and skills while providing an engaging and responsive user experience across devices.",
         "tags": [
             "React",
@@ -515,6 +595,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/the-art-of-war-random-quote-generator/tree/master",
         "projectLink": "https://rafdimartino.github.io/the-art-of-war-random-quote-generator/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I developed my own version of the Random Quote Machine Generator, utilizing React hooks like useState and useEffect. The application fetches data dynamically from my Gist repository, allowing me to practice retrieving and displaying random quotes.",
         "tags": [
             "React",
@@ -529,6 +611,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/react-counter-app/tree/master",
         "projectLink": "https://rafdimartino.github.io/react-counter-app/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created a React counter app as a practice project to sharpen my skills with React hooks, specifically useState and useEffect. This application allows for incrementing and decrementing a counter value and demonstrates the utilization of hooks for managing state and handling side effects.",
         "tags": [
             "React",
@@ -543,6 +627,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/RafDiMartino.github.io",
         "projectLink": "https://rafdimartino.github.io/",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I developed the first version of my portfolio website using HTML, CSS, and JavaScript. This initial version showcases my projects and skills in a visually appealing manner, while leveraging the power of these core web technologies.",
         "tags": [
             "HTML",
@@ -559,6 +645,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/RafDiMartino.github.io/tree/main/Laboratorio%20Creativo",
         "projectLink": "https://rafdimartino.github.io/Laboratorio%20Creativo/index.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "First version of a Mobile First Design website for an artisan specializing in customizing shoes, candles, and more. This website, created using HTML, CSS, and JavaScript, prioritizes a seamless and engaging user experience on mobile devices, while effectively showcasing the artisan's unique creations.",
         "tags": [
             "HTML",
@@ -575,6 +663,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Caesar-Cipher",
         "projectLink": "https://rafdimartino.github.io/Caesar-Cipher/index.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I developed my own version of the Caesar Cipher, featuring three encryption methods. This project not only allowed me to explore various techniques for encrypting and decrypting messages using the Caesar Cipher algorithm but also served as a platform to practice CSS animations, enhancing the visual experience of the application.",
         "tags": [
             "HTML",
@@ -591,6 +681,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Simple-Calculator",
         "projectLink": "https://rafdimartino.github.io/Calculator/index.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created a simple calculator as a practice project to reinforce my skills in JavaScript functions, DOM manipulation, and event handling. This project provided hands-on experience in building a functional calculator interface that performs basic arithmetic calculations.",
         "tags": [
             "HTML",
@@ -607,6 +699,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Digital-Clock",
         "projectLink": "https://rafdimartino.github.io/DigitalClock/index.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I undertook a practice project to develop a digital clock, focusing on JavaScript DOM manipulation and utilizing the Date object. This project allowed me to enhance my skills in dynamically updating and displaying the current time on a web page, leveraging the capabilities of the DOM and the Date object for accurate timekeeping.",
         "tags": [
             "HTML",
@@ -623,6 +717,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Virtual-Piano",
         "projectLink": "https://rafdimartino.github.io/Virtual%20Piano-/Virtual%20Piano.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I developed a virtual piano as a practice project, focusing on JavaScript DOM manipulation and event handling. This project enabled me to enhance my skills in creating interactive experiences by dynamically manipulating DOM elements and effectively responding to user interactions.",
         "tags": [
             "HTML",
@@ -639,6 +735,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Flashcards",
         "projectLink": "https://rafdimartino.github.io/Flashcards/index.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created a set of flashcards featuring countries and their capitals to practice CSS animations, media queries, and CSS grid. This project allowed me to improve my skills in designing responsive layouts using CSS grid and implementing engaging animations to enhance the user experience.",
         "tags": [
             "HTML",
@@ -654,6 +752,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Technical-Documentation-Page",
         "projectLink": "https://rafdimartino.github.io/Technical%20Documentation%20Page/Technical%20Documentation%20Page.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created a Technical Documentation Page about JavaScript syntax, practicing responsive web design with media queries and flexbox. This project improved my skills in developing adaptable layouts that provide an optimal reading experience across different devices.",
         "tags": [
             "HTML",
@@ -669,6 +769,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Product-Landing-Page",
         "projectLink": "https://rafdimartino.github.io/Product%20Landing%20Page/Landing%20Page.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created a responsive Product Landing Page for the PlayStation controller, practicing media queries and flexbox for responsive web design. This project improved my skills in developing visually appealing and user-friendly layouts that adapt to different screen sizes.",
         "tags": [
             "HTML",
@@ -684,6 +786,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Survey-Form",
         "projectLink": "https://rafdimartino.github.io/Survey%20Form/Survey%20Form.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "I created a Survey Form for programming languages, practicing Mobile First Design using media queries and flexbox. This project improved my skills in developing responsive layouts for an optimal user experience on various devices.",
         "tags": [
             "HTML",
@@ -699,6 +803,8 @@
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Tribute-Page",
         "projectLink": "https://rafdimartino.github.io/Tribute-Page/tribute%20page.html",
+        "microsoftStore": "",
+        "playStore": "",
         "description": "For my first project, I created a Tribute Page honoring Alexander The Great. This allowed me to practice responsive web design using media queries and flexbox, resulting in a visually appealing and mobile-friendly layout.",
         "tags": [
             "HTML",

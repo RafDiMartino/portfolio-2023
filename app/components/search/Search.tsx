@@ -17,6 +17,8 @@ interface Item {
   repoLink: string;
   projectLink: string;
   description: string;
+  playStore: string;
+  microsoftStore: string;
   tags: string[];
 }
 
