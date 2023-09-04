@@ -1,4 +1,5 @@
 [
+
     {
         "alt": "Next.js logo",
         "src": "./assets/skills-logos/next-js.svg",
@@ -113,5 +114,10 @@
         "alt": "Blender logo",
         "src": "./assets/skills-logos/blender.svg",
         "tooltip": "Blender "
+    },
+    {
+        "alt": "PWA logo",
+        "src": "./assets/skills-logos/pwa.svg",
+        "tooltip": "Progressive Web App"
     }
 ]
