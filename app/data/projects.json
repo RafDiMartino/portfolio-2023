@@ -558,7 +558,7 @@
         "title": "Laboratorio Creativo",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/RafDiMartino.github.io/tree/main/Laboratorio%20Creativo",
-        "projectLink": "https://rafdimartino.github.io/Laboratorio%20Creativo/index.HTML",
+        "projectLink": "https://rafdimartino.github.io/Laboratorio%20Creativo/index.html",
         "description": "First version of a Mobile First Design website for an artisan specializing in customizing shoes, candles, and more. This website, created using HTML, CSS, and JavaScript, prioritizes a seamless and engaging user experience on mobile devices, while effectively showcasing the artisan's unique creations.",
         "tags": [
             "HTML",
@@ -574,7 +574,7 @@
         "title": "Caesar Cipher",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Caesar-Cipher",
-        "projectLink": "https://rafdimartino.github.io/Caesar-Cipher/index.HTML",
+        "projectLink": "https://rafdimartino.github.io/Caesar-Cipher/index.html",
         "description": "I developed my own version of the Caesar Cipher, featuring three encryption methods. This project not only allowed me to explore various techniques for encrypting and decrypting messages using the Caesar Cipher algorithm but also served as a platform to practice CSS animations, enhancing the visual experience of the application.",
         "tags": [
             "HTML",
@@ -590,7 +590,7 @@
         "title": "Simple calculator",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Simple-Calculator",
-        "projectLink": "https://rafdimartino.github.io/Calculator/index.HTML",
+        "projectLink": "https://rafdimartino.github.io/Calculator/index.html",
         "description": "I created a simple calculator as a practice project to reinforce my skills in JavaScript functions, DOM manipulation, and event handling. This project provided hands-on experience in building a functional calculator interface that performs basic arithmetic calculations.",
         "tags": [
             "HTML",
@@ -606,7 +606,7 @@
         "title": "Digital clock",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Digital-Clock",
-        "projectLink": "https://rafdimartino.github.io/DigitalClock/index.HTML",
+        "projectLink": "https://rafdimartino.github.io/DigitalClock/index.html",
         "description": "I undertook a practice project to develop a digital clock, focusing on JavaScript DOM manipulation and utilizing the Date object. This project allowed me to enhance my skills in dynamically updating and displaying the current time on a web page, leveraging the capabilities of the DOM and the Date object for accurate timekeeping.",
         "tags": [
             "HTML",
@@ -622,7 +622,7 @@
         "title": "Virtual piano",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Virtual-Piano",
-        "projectLink": "https://rafdimartino.github.io/Virtual%20Piano-/Virtual%20Piano.HTML",
+        "projectLink": "https://rafdimartino.github.io/Virtual%20Piano-/Virtual%20Piano.html",
         "description": "I developed a virtual piano as a practice project, focusing on JavaScript DOM manipulation and event handling. This project enabled me to enhance my skills in creating interactive experiences by dynamically manipulating DOM elements and effectively responding to user interactions.",
         "tags": [
             "HTML",
@@ -638,7 +638,7 @@
         "title": "Flash cards",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Flashcards",
-        "projectLink": "https://rafdimartino.github.io/Flashcards/index.HTML",
+        "projectLink": "https://rafdimartino.github.io/Flashcards/index.html",
         "description": "I created a set of flashcards featuring countries and their capitals to practice CSS animations, media queries, and CSS grid. This project allowed me to improve my skills in designing responsive layouts using CSS grid and implementing engaging animations to enhance the user experience.",
         "tags": [
             "HTML",
@@ -653,7 +653,7 @@
         "title": "Technical Documentation Page",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Technical-Documentation-Page",
-        "projectLink": "https://rafdimartino.github.io/Technical%20Documentation%20Page/Technical%20Documentation%20Page.HTML",
+        "projectLink": "https://rafdimartino.github.io/Technical%20Documentation%20Page/Technical%20Documentation%20Page.html",
         "description": "I created a Technical Documentation Page about JavaScript syntax, practicing responsive web design with media queries and flexbox. This project improved my skills in developing adaptable layouts that provide an optimal reading experience across different devices.",
         "tags": [
             "HTML",
@@ -668,7 +668,7 @@
         "title": "Product Landing Page",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Product-Landing-Page",
-        "projectLink": "https://rafdimartino.github.io/Product%20Landing%20Page/Landing%20Page.HTML",
+        "projectLink": "https://rafdimartino.github.io/Product%20Landing%20Page/Landing%20Page.html",
         "description": "I created a responsive Product Landing Page for the PlayStation controller, practicing media queries and flexbox for responsive web design. This project improved my skills in developing visually appealing and user-friendly layouts that adapt to different screen sizes.",
         "tags": [
             "HTML",
@@ -683,7 +683,7 @@
         "title": "Survey Form",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Survey-Form",
-        "projectLink": "https://rafdimartino.github.io/Survey%20Form/Survey%20Form.HTML",
+        "projectLink": "https://rafdimartino.github.io/Survey%20Form/Survey%20Form.html",
         "description": "I created a Survey Form for programming languages, practicing Mobile First Design using media queries and flexbox. This project improved my skills in developing responsive layouts for an optimal user experience on various devices.",
         "tags": [
             "HTML",
@@ -698,7 +698,7 @@
         "title": "Tribute Page",
         "date": "Made in 2021",
         "repoLink": "https://github.com/RafDiMartino/Tribute-Page",
-        "projectLink": "https://rafdimartino.github.io/Tribute-Page/tribute%20page.HTML",
+        "projectLink": "https://rafdimartino.github.io/Tribute-Page/tribute%20page.html",
         "description": "For my first project, I created a Tribute Page honoring Alexander The Great. This allowed me to practice responsive web design using media queries and flexbox, resulting in a visually appealing and mobile-friendly layout.",
         "tags": [
             "HTML",
