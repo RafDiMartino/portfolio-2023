@@ -1,5 +1,14 @@
 [
-
+    {
+        "alt": "C Sharp logo",
+        "src": "./assets/skills-logos/c--4.svg",
+        "tooltip": "C Sharp"
+    },
+    {
+        "alt": "Blazor logo",
+        "src": "./assets/skills-logos/blazor.svg",
+        "tooltip": "Blazor"
+    },
     {
         "alt": "Next.js logo",
         "src": "./assets/skills-logos/next-js.svg",
